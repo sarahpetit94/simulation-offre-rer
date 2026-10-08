@@ -1,0 +1,1249 @@
+rer,direction,station,debut_tranche,fin_tranche,montees
+A,Marne-la-Vallée,Saint-Germain-en-Laye,06:00,06:30,119.4
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,06:00,06:30,144.3
+A,Marne-la-Vallée,Le Vésinet-Centre,06:00,06:30,119.3
+A,Marne-la-Vallée,Chatou-Croissy,06:00,06:30,132.9
+A,Marne-la-Vallée,Rueil-Malmaison,06:00,06:30,156.9
+A,Marne-la-Vallée,Nanterre-Ville,06:00,06:30,164.2
+A,Marne-la-Vallée,Nanterre-Université,06:00,06:30,154.5
+A,Marne-la-Vallée,Nanterre-Préfecture,06:00,06:30,295.6
+A,Marne-la-Vallée,La Défense,06:00,06:30,374.3
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,06:00,06:30,156.9
+A,Marne-la-Vallée,Auber,06:00,06:30,217.3
+A,Marne-la-Vallée,Châtelet-Les Halles,06:00,06:30,289.7
+A,Marne-la-Vallée,Gare de Lyon,06:00,06:30,229.4
+A,Marne-la-Vallée,Nation,06:00,06:30,132.8
+A,Marne-la-Vallée,Vincennes,06:00,06:30,84.5
+A,Marne-la-Vallée,Val de Fontenay,06:00,06:30,108.7
+A,Marne-la-Vallée,Noisy-le-Grand,06:00,06:30,72.4
+A,Marne-la-Vallée,Noisy-Champs,06:00,06:30,43.5
+A,Marne-la-Vallée,Torcy,06:00,06:30,24.1
+A,Marne-la-Vallée,Saint-Germain-en-Laye,06:30,07:00,165.7
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,06:30,07:00,200.2
+A,Marne-la-Vallée,Le Vésinet-Centre,06:30,07:00,165.5
+A,Marne-la-Vallée,Chatou-Croissy,06:30,07:00,184.4
+A,Marne-la-Vallée,Rueil-Malmaison,06:30,07:00,217.7
+A,Marne-la-Vallée,Nanterre-Ville,06:30,07:00,227.9
+A,Marne-la-Vallée,Nanterre-Université,06:30,07:00,214.4
+A,Marne-la-Vallée,Nanterre-Préfecture,06:30,07:00,410.2
+A,Marne-la-Vallée,La Défense,06:30,07:00,519.4
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,06:30,07:00,217.8
+A,Marne-la-Vallée,Auber,06:30,07:00,301.6
+A,Marne-la-Vallée,Châtelet-Les Halles,06:30,07:00,402.1
+A,Marne-la-Vallée,Gare de Lyon,06:30,07:00,318.4
+A,Marne-la-Vallée,Nation,06:30,07:00,184.3
+A,Marne-la-Vallée,Vincennes,06:30,07:00,117.3
+A,Marne-la-Vallée,Val de Fontenay,06:30,07:00,150.8
+A,Marne-la-Vallée,Noisy-le-Grand,06:30,07:00,100.5
+A,Marne-la-Vallée,Noisy-Champs,06:30,07:00,60.3
+A,Marne-la-Vallée,Torcy,06:30,07:00,33.5
+A,Marne-la-Vallée,Saint-Germain-en-Laye,07:00,07:30,225.5
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,07:00,07:30,272.4
+A,Marne-la-Vallée,Le Vésinet-Centre,07:00,07:30,225.1
+A,Marne-la-Vallée,Chatou-Croissy,07:00,07:30,250.9
+A,Marne-la-Vallée,Rueil-Malmaison,07:00,07:30,296.2
+A,Marne-la-Vallée,Nanterre-Ville,07:00,07:30,310
+A,Marne-la-Vallée,Nanterre-Université,07:00,07:30,291.7
+A,Marne-la-Vallée,Nanterre-Préfecture,07:00,07:30,558.1
+A,Marne-la-Vallée,La Défense,07:00,07:30,706.6
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,07:00,07:30,296.3
+A,Marne-la-Vallée,Auber,07:00,07:30,410.3
+A,Marne-la-Vallée,Châtelet-Les Halles,07:00,07:30,547.1
+A,Marne-la-Vallée,Gare de Lyon,07:00,07:30,433.1
+A,Marne-la-Vallée,Nation,07:00,07:30,250.7
+A,Marne-la-Vallée,Vincennes,07:00,07:30,159.6
+A,Marne-la-Vallée,Val de Fontenay,07:00,07:30,205.2
+A,Marne-la-Vallée,Noisy-le-Grand,07:00,07:30,136.8
+A,Marne-la-Vallée,Noisy-Champs,07:00,07:30,82.1
+A,Marne-la-Vallée,Torcy,07:00,07:30,45.6
+A,Marne-la-Vallée,Saint-Germain-en-Laye,07:30,08:00,280.7
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,07:30,08:00,339.2
+A,Marne-la-Vallée,Le Vésinet-Centre,07:30,08:00,280.3
+A,Marne-la-Vallée,Chatou-Croissy,07:30,08:00,312.4
+A,Marne-la-Vallée,Rueil-Malmaison,07:30,08:00,368.7
+A,Marne-la-Vallée,Nanterre-Ville,07:30,08:00,386
+A,Marne-la-Vallée,Nanterre-Université,07:30,08:00,363.2
+A,Marne-la-Vallée,Nanterre-Préfecture,07:30,08:00,694.9
+A,Marne-la-Vallée,La Défense,07:30,08:00,879.8
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,07:30,08:00,368.9
+A,Marne-la-Vallée,Auber,07:30,08:00,510.8
+A,Marne-la-Vallée,Châtelet-Les Halles,07:30,08:00,681.1
+A,Marne-la-Vallée,Gare de Lyon,07:30,08:00,539.2
+A,Marne-la-Vallée,Nation,07:30,08:00,312.2
+A,Marne-la-Vallée,Vincennes,07:30,08:00,198.7
+A,Marne-la-Vallée,Val de Fontenay,07:30,08:00,255.4
+A,Marne-la-Vallée,Noisy-le-Grand,07:30,08:00,170.3
+A,Marne-la-Vallée,Noisy-Champs,07:30,08:00,102.2
+A,Marne-la-Vallée,Torcy,07:30,08:00,56.8
+A,Marne-la-Vallée,Saint-Germain-en-Laye,08:00,08:30,308
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,08:00,08:30,372.1
+A,Marne-la-Vallée,Le Vésinet-Centre,08:00,08:30,307.6
+A,Marne-la-Vallée,Chatou-Croissy,08:00,08:30,342.8
+A,Marne-la-Vallée,Rueil-Malmaison,08:00,08:30,404.6
+A,Marne-la-Vallée,Nanterre-Ville,08:00,08:30,423.5
+A,Marne-la-Vallée,Nanterre-Université,08:00,08:30,398.5
+A,Marne-la-Vallée,Nanterre-Préfecture,08:00,08:30,762.4
+A,Marne-la-Vallée,La Défense,08:00,08:30,965.3
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,08:00,08:30,404.8
+A,Marne-la-Vallée,Auber,08:00,08:30,560.5
+A,Marne-la-Vallée,Châtelet-Les Halles,08:00,08:30,747.3
+A,Marne-la-Vallée,Gare de Lyon,08:00,08:30,591.6
+A,Marne-la-Vallée,Nation,08:00,08:30,342.5
+A,Marne-la-Vallée,Vincennes,08:00,08:30,218
+A,Marne-la-Vallée,Val de Fontenay,08:00,08:30,280.2
+A,Marne-la-Vallée,Noisy-le-Grand,08:00,08:30,186.8
+A,Marne-la-Vallée,Noisy-Champs,08:00,08:30,112.1
+A,Marne-la-Vallée,Torcy,08:00,08:30,62.3
+A,Marne-la-Vallée,Saint-Germain-en-Laye,08:30,09:00,294
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,08:30,09:00,355.1
+A,Marne-la-Vallée,Le Vésinet-Centre,08:30,09:00,293.5
+A,Marne-la-Vallée,Chatou-Croissy,08:30,09:00,327.1
+A,Marne-la-Vallée,Rueil-Malmaison,08:30,09:00,386.1
+A,Marne-la-Vallée,Nanterre-Ville,08:30,09:00,404.2
+A,Marne-la-Vallée,Nanterre-Université,08:30,09:00,380.3
+A,Marne-la-Vallée,Nanterre-Préfecture,08:30,09:00,727.6
+A,Marne-la-Vallée,La Défense,08:30,09:00,921.2
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,08:30,09:00,386.3
+A,Marne-la-Vallée,Auber,08:30,09:00,534.9
+A,Marne-la-Vallée,Châtelet-Les Halles,08:30,09:00,713.2
+A,Marne-la-Vallée,Gare de Lyon,08:30,09:00,564.6
+A,Marne-la-Vallée,Nation,08:30,09:00,326.9
+A,Marne-la-Vallée,Vincennes,08:30,09:00,208
+A,Marne-la-Vallée,Val de Fontenay,08:30,09:00,267.5
+A,Marne-la-Vallée,Noisy-le-Grand,08:30,09:00,178.3
+A,Marne-la-Vallée,Noisy-Champs,08:30,09:00,107
+A,Marne-la-Vallée,Torcy,08:30,09:00,59.4
+A,Marne-la-Vallée,Saint-Germain-en-Laye,09:00,09:30,245.6
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,09:00,09:30,296.7
+A,Marne-la-Vallée,Le Vésinet-Centre,09:00,09:30,245.2
+A,Marne-la-Vallée,Chatou-Croissy,09:00,09:30,273.3
+A,Marne-la-Vallée,Rueil-Malmaison,09:00,09:30,322.6
+A,Marne-la-Vallée,Nanterre-Ville,09:00,09:30,337.6
+A,Marne-la-Vallée,Nanterre-Université,09:00,09:30,317.7
+A,Marne-la-Vallée,Nanterre-Préfecture,09:00,09:30,607.9
+A,Marne-la-Vallée,La Défense,09:00,09:30,769.6
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,09:00,09:30,322.7
+A,Marne-la-Vallée,Auber,09:00,09:30,446.9
+A,Marne-la-Vallée,Châtelet-Les Halles,09:00,09:30,595.8
+A,Marne-la-Vallée,Gare de Lyon,09:00,09:30,471.7
+A,Marne-la-Vallée,Nation,09:00,09:30,273.1
+A,Marne-la-Vallée,Vincennes,09:00,09:30,173.8
+A,Marne-la-Vallée,Val de Fontenay,09:00,09:30,223.4
+A,Marne-la-Vallée,Noisy-le-Grand,09:00,09:30,149
+A,Marne-la-Vallée,Noisy-Champs,09:00,09:30,89.4
+A,Marne-la-Vallée,Torcy,09:00,09:30,49.7
+A,Marne-la-Vallée,Saint-Germain-en-Laye,09:30,10:00,184.8
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,09:30,10:00,223.3
+A,Marne-la-Vallée,Le Vésinet-Centre,09:30,10:00,184.5
+A,Marne-la-Vallée,Chatou-Croissy,09:30,10:00,205.7
+A,Marne-la-Vallée,Rueil-Malmaison,09:30,10:00,242.8
+A,Marne-la-Vallée,Nanterre-Ville,09:30,10:00,254.1
+A,Marne-la-Vallée,Nanterre-Université,09:30,10:00,239.1
+A,Marne-la-Vallée,Nanterre-Préfecture,09:30,10:00,457.5
+A,Marne-la-Vallée,La Défense,09:30,10:00,579.2
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,09:30,10:00,242.9
+A,Marne-la-Vallée,Auber,09:30,10:00,336.3
+A,Marne-la-Vallée,Châtelet-Les Halles,09:30,10:00,448.4
+A,Marne-la-Vallée,Gare de Lyon,09:30,10:00,355
+A,Marne-la-Vallée,Nation,09:30,10:00,205.5
+A,Marne-la-Vallée,Vincennes,09:30,10:00,130.8
+A,Marne-la-Vallée,Val de Fontenay,09:30,10:00,168.1
+A,Marne-la-Vallée,Noisy-le-Grand,09:30,10:00,112.1
+A,Marne-la-Vallée,Noisy-Champs,09:30,10:00,67.3
+A,Marne-la-Vallée,Torcy,09:30,10:00,37.4
+A,Marne-la-Vallée,Saint-Germain-en-Laye,10:00,10:30,132.8
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,10:00,10:30,160.4
+A,Marne-la-Vallée,Le Vésinet-Centre,10:00,10:30,132.6
+A,Marne-la-Vallée,Chatou-Croissy,10:00,10:30,147.8
+A,Marne-la-Vallée,Rueil-Malmaison,10:00,10:30,174.4
+A,Marne-la-Vallée,Nanterre-Ville,10:00,10:30,182.6
+A,Marne-la-Vallée,Nanterre-Université,10:00,10:30,171.8
+A,Marne-la-Vallée,Nanterre-Préfecture,10:00,10:30,328.7
+A,Marne-la-Vallée,La Défense,10:00,10:30,416.2
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,10:00,10:30,174.5
+A,Marne-la-Vallée,Auber,10:00,10:30,241.6
+A,Marne-la-Vallée,Châtelet-Les Halles,10:00,10:30,322.2
+A,Marne-la-Vallée,Gare de Lyon,10:00,10:30,255.1
+A,Marne-la-Vallée,Nation,10:00,10:30,147.7
+A,Marne-la-Vallée,Vincennes,10:00,10:30,94
+A,Marne-la-Vallée,Val de Fontenay,10:00,10:30,120.8
+A,Marne-la-Vallée,Noisy-le-Grand,10:00,10:30,80.5
+A,Marne-la-Vallée,Noisy-Champs,10:00,10:30,48.3
+A,Marne-la-Vallée,Torcy,10:00,10:30,26.8
+A,Marne-la-Vallée,Saint-Germain-en-Laye,10:30,11:00,99
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,10:30,11:00,119.6
+A,Marne-la-Vallée,Le Vésinet-Centre,10:30,11:00,98.9
+A,Marne-la-Vallée,Chatou-Croissy,10:30,11:00,110.2
+A,Marne-la-Vallée,Rueil-Malmaison,10:30,11:00,130.1
+A,Marne-la-Vallée,Nanterre-Ville,10:30,11:00,136.1
+A,Marne-la-Vallée,Nanterre-Université,10:30,11:00,128.1
+A,Marne-la-Vallée,Nanterre-Préfecture,10:30,11:00,245.1
+A,Marne-la-Vallée,La Défense,10:30,11:00,310.3
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,10:30,11:00,130.1
+A,Marne-la-Vallée,Auber,10:30,11:00,180.2
+A,Marne-la-Vallée,Châtelet-Les Halles,10:30,11:00,240.2
+A,Marne-la-Vallée,Gare de Lyon,10:30,11:00,190.2
+A,Marne-la-Vallée,Nation,10:30,11:00,110.1
+A,Marne-la-Vallée,Vincennes,10:30,11:00,70.1
+A,Marne-la-Vallée,Val de Fontenay,10:30,11:00,90.1
+A,Marne-la-Vallée,Noisy-le-Grand,10:30,11:00,60.1
+A,Marne-la-Vallée,Noisy-Champs,10:30,11:00,36
+A,Marne-la-Vallée,Torcy,10:30,11:00,20
+A,Marne-la-Vallée,Saint-Germain-en-Laye,11:00,11:30,81.7
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,11:00,11:30,98.6
+A,Marne-la-Vallée,Le Vésinet-Centre,11:00,11:30,81.5
+A,Marne-la-Vallée,Chatou-Croissy,11:00,11:30,90.9
+A,Marne-la-Vallée,Rueil-Malmaison,11:00,11:30,107.3
+A,Marne-la-Vallée,Nanterre-Ville,11:00,11:30,112.3
+A,Marne-la-Vallée,Nanterre-Université,11:00,11:30,105.6
+A,Marne-la-Vallée,Nanterre-Préfecture,11:00,11:30,202.1
+A,Marne-la-Vallée,La Défense,11:00,11:30,255.9
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,11:00,11:30,107.3
+A,Marne-la-Vallée,Auber,11:00,11:30,148.6
+A,Marne-la-Vallée,Châtelet-Les Halles,11:00,11:30,198.1
+A,Marne-la-Vallée,Gare de Lyon,11:00,11:30,156.8
+A,Marne-la-Vallée,Nation,11:00,11:30,90.8
+A,Marne-la-Vallée,Vincennes,11:00,11:30,57.8
+A,Marne-la-Vallée,Val de Fontenay,11:00,11:30,74.3
+A,Marne-la-Vallée,Noisy-le-Grand,11:00,11:30,49.5
+A,Marne-la-Vallée,Noisy-Champs,11:00,11:30,29.7
+A,Marne-la-Vallée,Torcy,11:00,11:30,16.5
+A,Marne-la-Vallée,Saint-Germain-en-Laye,11:30,12:00,74.5
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,11:30,12:00,90
+A,Marne-la-Vallée,Le Vésinet-Centre,11:30,12:00,74.4
+A,Marne-la-Vallée,Chatou-Croissy,11:30,12:00,82.9
+A,Marne-la-Vallée,Rueil-Malmaison,11:30,12:00,97.8
+A,Marne-la-Vallée,Nanterre-Ville,11:30,12:00,102.4
+A,Marne-la-Vallée,Nanterre-Université,11:30,12:00,96.3
+A,Marne-la-Vallée,Nanterre-Préfecture,11:30,12:00,184.3
+A,Marne-la-Vallée,La Défense,11:30,12:00,233.4
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,11:30,12:00,97.9
+A,Marne-la-Vallée,Auber,11:30,12:00,135.5
+A,Marne-la-Vallée,Châtelet-Les Halles,11:30,12:00,180.7
+A,Marne-la-Vallée,Gare de Lyon,11:30,12:00,143.1
+A,Marne-la-Vallée,Nation,11:30,12:00,82.8
+A,Marne-la-Vallée,Vincennes,11:30,12:00,52.7
+A,Marne-la-Vallée,Val de Fontenay,11:30,12:00,67.8
+A,Marne-la-Vallée,Noisy-le-Grand,11:30,12:00,45.2
+A,Marne-la-Vallée,Noisy-Champs,11:30,12:00,27.1
+A,Marne-la-Vallée,Torcy,11:30,12:00,15.1
+A,Marne-la-Vallée,Saint-Germain-en-Laye,12:00,12:30,72.1
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,12:00,12:30,87.1
+A,Marne-la-Vallée,Le Vésinet-Centre,12:00,12:30,72
+A,Marne-la-Vallée,Chatou-Croissy,12:00,12:30,80.2
+A,Marne-la-Vallée,Rueil-Malmaison,12:00,12:30,94.7
+A,Marne-la-Vallée,Nanterre-Ville,12:00,12:30,99.1
+A,Marne-la-Vallée,Nanterre-Université,12:00,12:30,93.2
+A,Marne-la-Vallée,Nanterre-Préfecture,12:00,12:30,178.4
+A,Marne-la-Vallée,La Défense,12:00,12:30,225.9
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,12:00,12:30,94.7
+A,Marne-la-Vallée,Auber,12:00,12:30,131.1
+A,Marne-la-Vallée,Châtelet-Les Halles,12:00,12:30,174.9
+A,Marne-la-Vallée,Gare de Lyon,12:00,12:30,138.4
+A,Marne-la-Vallée,Nation,12:00,12:30,80.1
+A,Marne-la-Vallée,Vincennes,12:00,12:30,51
+A,Marne-la-Vallée,Val de Fontenay,12:00,12:30,65.6
+A,Marne-la-Vallée,Noisy-le-Grand,12:00,12:30,43.7
+A,Marne-la-Vallée,Noisy-Champs,12:00,12:30,26.2
+A,Marne-la-Vallée,Torcy,12:00,12:30,14.6
+A,Marne-la-Vallée,Saint-Germain-en-Laye,12:30,13:00,71.4
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,12:30,13:00,86.3
+A,Marne-la-Vallée,Le Vésinet-Centre,12:30,13:00,71.3
+A,Marne-la-Vallée,Chatou-Croissy,12:30,13:00,79.5
+A,Marne-la-Vallée,Rueil-Malmaison,12:30,13:00,93.8
+A,Marne-la-Vallée,Nanterre-Ville,12:30,13:00,98.2
+A,Marne-la-Vallée,Nanterre-Université,12:30,13:00,92.4
+A,Marne-la-Vallée,Nanterre-Préfecture,12:30,13:00,176.8
+A,Marne-la-Vallée,La Défense,12:30,13:00,223.8
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,12:30,13:00,93.8
+A,Marne-la-Vallée,Auber,12:30,13:00,129.9
+A,Marne-la-Vallée,Châtelet-Les Halles,12:30,13:00,173.2
+A,Marne-la-Vallée,Gare de Lyon,12:30,13:00,137.2
+A,Marne-la-Vallée,Nation,12:30,13:00,79.4
+A,Marne-la-Vallée,Vincennes,12:30,13:00,50.5
+A,Marne-la-Vallée,Val de Fontenay,12:30,13:00,65
+A,Marne-la-Vallée,Noisy-le-Grand,12:30,13:00,43.3
+A,Marne-la-Vallée,Noisy-Champs,12:30,13:00,26
+A,Marne-la-Vallée,Torcy,12:30,13:00,14.4
+A,Marne-la-Vallée,Saint-Germain-en-Laye,13:00,13:30,71.3
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,13:00,13:30,86.1
+A,Marne-la-Vallée,Le Vésinet-Centre,13:00,13:30,71.1
+A,Marne-la-Vallée,Chatou-Croissy,13:00,13:30,79.3
+A,Marne-la-Vallée,Rueil-Malmaison,13:00,13:30,93.6
+A,Marne-la-Vallée,Nanterre-Ville,13:00,13:30,98
+A,Marne-la-Vallée,Nanterre-Université,13:00,13:30,92.2
+A,Marne-la-Vallée,Nanterre-Préfecture,13:00,13:30,176.4
+A,Marne-la-Vallée,La Défense,13:00,13:30,223.3
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,13:00,13:30,93.6
+A,Marne-la-Vallée,Auber,13:00,13:30,129.7
+A,Marne-la-Vallée,Châtelet-Les Halles,13:00,13:30,172.9
+A,Marne-la-Vallée,Gare de Lyon,13:00,13:30,136.9
+A,Marne-la-Vallée,Nation,13:00,13:30,79.2
+A,Marne-la-Vallée,Vincennes,13:00,13:30,50.4
+A,Marne-la-Vallée,Val de Fontenay,13:00,13:30,64.8
+A,Marne-la-Vallée,Noisy-le-Grand,13:00,13:30,43.2
+A,Marne-la-Vallée,Noisy-Champs,13:00,13:30,25.9
+A,Marne-la-Vallée,Torcy,13:00,13:30,14.4
+A,Marne-la-Vallée,Saint-Germain-en-Laye,13:30,14:00,71.2
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,13:30,14:00,86
+A,Marne-la-Vallée,Le Vésinet-Centre,13:30,14:00,71.1
+A,Marne-la-Vallée,Chatou-Croissy,13:30,14:00,79.3
+A,Marne-la-Vallée,Rueil-Malmaison,13:30,14:00,93.5
+A,Marne-la-Vallée,Nanterre-Ville,13:30,14:00,97.9
+A,Marne-la-Vallée,Nanterre-Université,13:30,14:00,92.1
+A,Marne-la-Vallée,Nanterre-Préfecture,13:30,14:00,176.3
+A,Marne-la-Vallée,La Défense,13:30,14:00,223.2
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,13:30,14:00,93.6
+A,Marne-la-Vallée,Auber,13:30,14:00,129.6
+A,Marne-la-Vallée,Châtelet-Les Halles,13:30,14:00,172.8
+A,Marne-la-Vallée,Gare de Lyon,13:30,14:00,136.8
+A,Marne-la-Vallée,Nation,13:30,14:00,79.2
+A,Marne-la-Vallée,Vincennes,13:30,14:00,50.4
+A,Marne-la-Vallée,Val de Fontenay,13:30,14:00,64.8
+A,Marne-la-Vallée,Noisy-le-Grand,13:30,14:00,43.2
+A,Marne-la-Vallée,Noisy-Champs,13:30,14:00,25.9
+A,Marne-la-Vallée,Torcy,13:30,14:00,14.4
+A,Marne-la-Vallée,Saint-Germain-en-Laye,14:00,14:30,71.3
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,14:00,14:30,86.1
+A,Marne-la-Vallée,Le Vésinet-Centre,14:00,14:30,71.2
+A,Marne-la-Vallée,Chatou-Croissy,14:00,14:30,79.3
+A,Marne-la-Vallée,Rueil-Malmaison,14:00,14:30,93.6
+A,Marne-la-Vallée,Nanterre-Ville,14:00,14:30,98
+A,Marne-la-Vallée,Nanterre-Université,14:00,14:30,92.2
+A,Marne-la-Vallée,Nanterre-Préfecture,14:00,14:30,176.5
+A,Marne-la-Vallée,La Défense,14:00,14:30,223.4
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,14:00,14:30,93.7
+A,Marne-la-Vallée,Auber,14:00,14:30,129.7
+A,Marne-la-Vallée,Châtelet-Les Halles,14:00,14:30,173
+A,Marne-la-Vallée,Gare de Lyon,14:00,14:30,136.9
+A,Marne-la-Vallée,Nation,14:00,14:30,79.3
+A,Marne-la-Vallée,Vincennes,14:00,14:30,50.4
+A,Marne-la-Vallée,Val de Fontenay,14:00,14:30,64.9
+A,Marne-la-Vallée,Noisy-le-Grand,14:00,14:30,43.2
+A,Marne-la-Vallée,Noisy-Champs,14:00,14:30,25.9
+A,Marne-la-Vallée,Torcy,14:00,14:30,14.4
+A,Marne-la-Vallée,Saint-Germain-en-Laye,14:30,15:00,71.8
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,14:30,15:00,86.7
+A,Marne-la-Vallée,Le Vésinet-Centre,14:30,15:00,71.7
+A,Marne-la-Vallée,Chatou-Croissy,14:30,15:00,79.9
+A,Marne-la-Vallée,Rueil-Malmaison,14:30,15:00,94.3
+A,Marne-la-Vallée,Nanterre-Ville,14:30,15:00,98.7
+A,Marne-la-Vallée,Nanterre-Université,14:30,15:00,92.9
+A,Marne-la-Vallée,Nanterre-Préfecture,14:30,15:00,177.7
+A,Marne-la-Vallée,La Défense,14:30,15:00,225
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,14:30,15:00,94.4
+A,Marne-la-Vallée,Auber,14:30,15:00,130.6
+A,Marne-la-Vallée,Châtelet-Les Halles,14:30,15:00,174.2
+A,Marne-la-Vallée,Gare de Lyon,14:30,15:00,137.9
+A,Marne-la-Vallée,Nation,14:30,15:00,79.8
+A,Marne-la-Vallée,Vincennes,14:30,15:00,50.8
+A,Marne-la-Vallée,Val de Fontenay,14:30,15:00,65.3
+A,Marne-la-Vallée,Noisy-le-Grand,14:30,15:00,43.5
+A,Marne-la-Vallée,Noisy-Champs,14:30,15:00,26.1
+A,Marne-la-Vallée,Torcy,14:30,15:00,14.5
+A,Marne-la-Vallée,Saint-Germain-en-Laye,15:00,15:30,75
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,15:00,15:30,90.6
+A,Marne-la-Vallée,Le Vésinet-Centre,15:00,15:30,74.9
+A,Marne-la-Vallée,Chatou-Croissy,15:00,15:30,83.4
+A,Marne-la-Vallée,Rueil-Malmaison,15:00,15:30,98.5
+A,Marne-la-Vallée,Nanterre-Ville,15:00,15:30,103.1
+A,Marne-la-Vallée,Nanterre-Université,15:00,15:30,97
+A,Marne-la-Vallée,Nanterre-Préfecture,15:00,15:30,185.6
+A,Marne-la-Vallée,La Défense,15:00,15:30,235
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,15:00,15:30,98.5
+A,Marne-la-Vallée,Auber,15:00,15:30,136.4
+A,Marne-la-Vallée,Châtelet-Les Halles,15:00,15:30,181.9
+A,Marne-la-Vallée,Gare de Lyon,15:00,15:30,144
+A,Marne-la-Vallée,Nation,15:00,15:30,83.4
+A,Marne-la-Vallée,Vincennes,15:00,15:30,53.1
+A,Marne-la-Vallée,Val de Fontenay,15:00,15:30,68.2
+A,Marne-la-Vallée,Noisy-le-Grand,15:00,15:30,45.5
+A,Marne-la-Vallée,Noisy-Champs,15:00,15:30,27.3
+A,Marne-la-Vallée,Torcy,15:00,15:30,15.2
+A,Marne-la-Vallée,Saint-Germain-en-Laye,15:30,16:00,89.6
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,15:30,16:00,108.2
+A,Marne-la-Vallée,Le Vésinet-Centre,15:30,16:00,89.5
+A,Marne-la-Vallée,Chatou-Croissy,15:30,16:00,99.7
+A,Marne-la-Vallée,Rueil-Malmaison,15:30,16:00,117.7
+A,Marne-la-Vallée,Nanterre-Ville,15:30,16:00,123.2
+A,Marne-la-Vallée,Nanterre-Université,15:30,16:00,115.9
+A,Marne-la-Vallée,Nanterre-Préfecture,15:30,16:00,221.8
+A,Marne-la-Vallée,La Défense,15:30,16:00,280.8
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,15:30,16:00,117.7
+A,Marne-la-Vallée,Auber,15:30,16:00,163
+A,Marne-la-Vallée,Châtelet-Les Halles,15:30,16:00,217.4
+A,Marne-la-Vallée,Gare de Lyon,15:30,16:00,172.1
+A,Marne-la-Vallée,Nation,15:30,16:00,99.6
+A,Marne-la-Vallée,Vincennes,15:30,16:00,63.4
+A,Marne-la-Vallée,Val de Fontenay,15:30,16:00,81.5
+A,Marne-la-Vallée,Noisy-le-Grand,15:30,16:00,54.3
+A,Marne-la-Vallée,Noisy-Champs,15:30,16:00,32.6
+A,Marne-la-Vallée,Torcy,15:30,16:00,18.1
+A,Marne-la-Vallée,Saint-Germain-en-Laye,16:00,16:30,137.9
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,16:00,16:30,166.6
+A,Marne-la-Vallée,Le Vésinet-Centre,16:00,16:30,137.7
+A,Marne-la-Vallée,Chatou-Croissy,16:00,16:30,153.5
+A,Marne-la-Vallée,Rueil-Malmaison,16:00,16:30,181.1
+A,Marne-la-Vallée,Nanterre-Ville,16:00,16:30,189.6
+A,Marne-la-Vallée,Nanterre-Université,16:00,16:30,178.4
+A,Marne-la-Vallée,Nanterre-Préfecture,16:00,16:30,341.4
+A,Marne-la-Vallée,La Défense,16:00,16:30,432.2
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,16:00,16:30,181.2
+A,Marne-la-Vallée,Auber,16:00,16:30,251
+A,Marne-la-Vallée,Châtelet-Les Halles,16:00,16:30,334.6
+A,Marne-la-Vallée,Gare de Lyon,16:00,16:30,264.9
+A,Marne-la-Vallée,Nation,16:00,16:30,153.4
+A,Marne-la-Vallée,Vincennes,16:00,16:30,97.6
+A,Marne-la-Vallée,Val de Fontenay,16:00,16:30,125.5
+A,Marne-la-Vallée,Noisy-le-Grand,16:00,16:30,83.7
+A,Marne-la-Vallée,Noisy-Champs,16:00,16:30,50.2
+A,Marne-la-Vallée,Torcy,16:00,16:30,27.9
+A,Marne-la-Vallée,Saint-Germain-en-Laye,16:30,17:00,251
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,16:30,17:00,303.3
+A,Marne-la-Vallée,Le Vésinet-Centre,16:30,17:00,250.7
+A,Marne-la-Vallée,Chatou-Croissy,16:30,17:00,279.3
+A,Marne-la-Vallée,Rueil-Malmaison,16:30,17:00,329.7
+A,Marne-la-Vallée,Nanterre-Ville,16:30,17:00,345.2
+A,Marne-la-Vallée,Nanterre-Université,16:30,17:00,324.7
+A,Marne-la-Vallée,Nanterre-Préfecture,16:30,17:00,621.4
+A,Marne-la-Vallée,La Défense,16:30,17:00,786.7
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,16:30,17:00,329.9
+A,Marne-la-Vallée,Auber,16:30,17:00,456.8
+A,Marne-la-Vallée,Châtelet-Les Halles,16:30,17:00,609
+A,Marne-la-Vallée,Gare de Lyon,16:30,17:00,482.2
+A,Marne-la-Vallée,Nation,16:30,17:00,279.1
+A,Marne-la-Vallée,Vincennes,16:30,17:00,177.6
+A,Marne-la-Vallée,Val de Fontenay,16:30,17:00,228.4
+A,Marne-la-Vallée,Noisy-le-Grand,16:30,17:00,152.3
+A,Marne-la-Vallée,Noisy-Champs,16:30,17:00,91.4
+A,Marne-la-Vallée,Torcy,16:30,17:00,50.8
+A,Marne-la-Vallée,Saint-Germain-en-Laye,17:00,17:30,431.2
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,17:00,17:30,520.9
+A,Marne-la-Vallée,Le Vésinet-Centre,17:00,17:30,430.6
+A,Marne-la-Vallée,Chatou-Croissy,17:00,17:30,479.8
+A,Marne-la-Vallée,Rueil-Malmaison,17:00,17:30,566.4
+A,Marne-la-Vallée,Nanterre-Ville,17:00,17:30,592.9
+A,Marne-la-Vallée,Nanterre-Université,17:00,17:30,557.8
+A,Marne-la-Vallée,Nanterre-Préfecture,17:00,17:30,1067.3
+A,Marne-la-Vallée,La Défense,17:00,17:30,1351.3
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,17:00,17:30,566.7
+A,Marne-la-Vallée,Auber,17:00,17:30,784.7
+A,Marne-la-Vallée,Châtelet-Les Halles,17:00,17:30,1046.2
+A,Marne-la-Vallée,Gare de Lyon,17:00,17:30,828.2
+A,Marne-la-Vallée,Nation,17:00,17:30,479.5
+A,Marne-la-Vallée,Vincennes,17:00,17:30,305.1
+A,Marne-la-Vallée,Val de Fontenay,17:00,17:30,392.3
+A,Marne-la-Vallée,Noisy-le-Grand,17:00,17:30,261.6
+A,Marne-la-Vallée,Noisy-Champs,17:00,17:30,156.9
+A,Marne-la-Vallée,Torcy,17:00,17:30,87.2
+A,Marne-la-Vallée,Saint-Germain-en-Laye,17:30,18:00,606.5
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,17:30,18:00,732.7
+A,Marne-la-Vallée,Le Vésinet-Centre,17:30,18:00,605.6
+A,Marne-la-Vallée,Chatou-Croissy,17:30,18:00,674.8
+A,Marne-la-Vallée,Rueil-Malmaison,17:30,18:00,796.6
+A,Marne-la-Vallée,Nanterre-Ville,17:30,18:00,833.9
+A,Marne-la-Vallée,Nanterre-Université,17:30,18:00,784.5
+A,Marne-la-Vallée,Nanterre-Préfecture,17:30,18:00,1501.2
+A,Marne-la-Vallée,La Défense,17:30,18:00,1900.6
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,17:30,18:00,797
+A,Marne-la-Vallée,Auber,17:30,18:00,1103.6
+A,Marne-la-Vallée,Châtelet-Les Halles,17:30,18:00,1471.5
+A,Marne-la-Vallée,Gare de Lyon,17:30,18:00,1164.9
+A,Marne-la-Vallée,Nation,17:30,18:00,674.4
+A,Marne-la-Vallée,Vincennes,17:30,18:00,429.2
+A,Marne-la-Vallée,Val de Fontenay,17:30,18:00,551.8
+A,Marne-la-Vallée,Noisy-le-Grand,17:30,18:00,367.9
+A,Marne-la-Vallée,Noisy-Champs,17:30,18:00,220.7
+A,Marne-la-Vallée,Torcy,17:30,18:00,122.6
+A,Marne-la-Vallée,Saint-Germain-en-Laye,18:00,18:30,662.3
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,18:00,18:30,800.1
+A,Marne-la-Vallée,Le Vésinet-Centre,18:00,18:30,661.3
+A,Marne-la-Vallée,Chatou-Croissy,18:00,18:30,736.9
+A,Marne-la-Vallée,Rueil-Malmaison,18:00,18:30,869.9
+A,Marne-la-Vallée,Nanterre-Ville,18:00,18:30,910.6
+A,Marne-la-Vallée,Nanterre-Université,18:00,18:30,856.7
+A,Marne-la-Vallée,Nanterre-Préfecture,18:00,18:30,1639.3
+A,Marne-la-Vallée,La Défense,18:00,18:30,2075.5
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,18:00,18:30,870.4
+A,Marne-la-Vallée,Auber,18:00,18:30,1205.1
+A,Marne-la-Vallée,Châtelet-Les Halles,18:00,18:30,1606.9
+A,Marne-la-Vallée,Gare de Lyon,18:00,18:30,1272.1
+A,Marne-la-Vallée,Nation,18:00,18:30,736.5
+A,Marne-la-Vallée,Vincennes,18:00,18:30,468.7
+A,Marne-la-Vallée,Val de Fontenay,18:00,18:30,602.6
+A,Marne-la-Vallée,Noisy-le-Grand,18:00,18:30,401.7
+A,Marne-la-Vallée,Noisy-Champs,18:00,18:30,241
+A,Marne-la-Vallée,Torcy,18:00,18:30,133.9
+A,Marne-la-Vallée,Saint-Germain-en-Laye,18:30,19:00,556
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,18:30,19:00,671.6
+A,Marne-la-Vallée,Le Vésinet-Centre,18:30,19:00,555.1
+A,Marne-la-Vallée,Chatou-Croissy,18:30,19:00,618.6
+A,Marne-la-Vallée,Rueil-Malmaison,18:30,19:00,730.2
+A,Marne-la-Vallée,Nanterre-Ville,18:30,19:00,764.4
+A,Marne-la-Vallée,Nanterre-Université,18:30,19:00,719.2
+A,Marne-la-Vallée,Nanterre-Préfecture,18:30,19:00,1376.1
+A,Marne-la-Vallée,La Défense,18:30,19:00,1742.3
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,18:30,19:00,730.6
+A,Marne-la-Vallée,Auber,18:30,19:00,1011.6
+A,Marne-la-Vallée,Châtelet-Les Halles,18:30,19:00,1348.9
+A,Marne-la-Vallée,Gare de Lyon,18:30,19:00,1067.8
+A,Marne-la-Vallée,Nation,18:30,19:00,618.2
+A,Marne-la-Vallée,Vincennes,18:30,19:00,393.4
+A,Marne-la-Vallée,Val de Fontenay,18:30,19:00,505.8
+A,Marne-la-Vallée,Noisy-le-Grand,18:30,19:00,337.2
+A,Marne-la-Vallée,Noisy-Champs,18:30,19:00,202.3
+A,Marne-la-Vallée,Torcy,18:30,19:00,112.4
+A,Marne-la-Vallée,Saint-Germain-en-Laye,19:00,19:30,366.5
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,19:00,19:30,442.7
+A,Marne-la-Vallée,Le Vésinet-Centre,19:00,19:30,365.9
+A,Marne-la-Vallée,Chatou-Croissy,19:00,19:30,407.8
+A,Marne-la-Vallée,Rueil-Malmaison,19:00,19:30,481.3
+A,Marne-la-Vallée,Nanterre-Ville,19:00,19:30,503.8
+A,Marne-la-Vallée,Nanterre-Université,19:00,19:30,474
+A,Marne-la-Vallée,Nanterre-Préfecture,19:00,19:30,907.1
+A,Marne-la-Vallée,La Défense,19:00,19:30,1148.4
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,19:00,19:30,481.6
+A,Marne-la-Vallée,Auber,19:00,19:30,666.8
+A,Marne-la-Vallée,Châtelet-Les Halles,19:00,19:30,889.1
+A,Marne-la-Vallée,Gare de Lyon,19:00,19:30,703.8
+A,Marne-la-Vallée,Nation,19:00,19:30,407.5
+A,Marne-la-Vallée,Vincennes,19:00,19:30,259.3
+A,Marne-la-Vallée,Val de Fontenay,19:00,19:30,333.4
+A,Marne-la-Vallée,Noisy-le-Grand,19:00,19:30,222.3
+A,Marne-la-Vallée,Noisy-Champs,19:00,19:30,133.4
+A,Marne-la-Vallée,Torcy,19:00,19:30,74.1
+A,Marne-la-Vallée,Saint-Germain-en-Laye,19:30,20:00,204.8
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,19:30,20:00,247.4
+A,Marne-la-Vallée,Le Vésinet-Centre,19:30,20:00,204.5
+A,Marne-la-Vallée,Chatou-Croissy,19:30,20:00,227.8
+A,Marne-la-Vallée,Rueil-Malmaison,19:30,20:00,268.9
+A,Marne-la-Vallée,Nanterre-Ville,19:30,20:00,281.5
+A,Marne-la-Vallée,Nanterre-Université,19:30,20:00,264.9
+A,Marne-la-Vallée,Nanterre-Préfecture,19:30,20:00,506.8
+A,Marne-la-Vallée,La Défense,19:30,20:00,641.7
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,19:30,20:00,269.1
+A,Marne-la-Vallée,Auber,19:30,20:00,372.6
+A,Marne-la-Vallée,Châtelet-Les Halles,19:30,20:00,496.8
+A,Marne-la-Vallée,Gare de Lyon,19:30,20:00,393.3
+A,Marne-la-Vallée,Nation,19:30,20:00,227.7
+A,Marne-la-Vallée,Vincennes,19:30,20:00,144.9
+A,Marne-la-Vallée,Val de Fontenay,19:30,20:00,186.3
+A,Marne-la-Vallée,Noisy-le-Grand,19:30,20:00,124.2
+A,Marne-la-Vallée,Noisy-Champs,19:30,20:00,74.5
+A,Marne-la-Vallée,Torcy,19:30,20:00,41.4
+A,Marne-la-Vallée,Saint-Germain-en-Laye,20:00,20:30,116.1
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,20:00,20:30,140.2
+A,Marne-la-Vallée,Le Vésinet-Centre,20:00,20:30,115.9
+A,Marne-la-Vallée,Chatou-Croissy,20:00,20:30,129.2
+A,Marne-la-Vallée,Rueil-Malmaison,20:00,20:30,152.5
+A,Marne-la-Vallée,Nanterre-Ville,20:00,20:30,159.6
+A,Marne-la-Vallée,Nanterre-Université,20:00,20:30,150.2
+A,Marne-la-Vallée,Nanterre-Préfecture,20:00,20:30,287.3
+A,Marne-la-Vallée,La Défense,20:00,20:30,363.8
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,20:00,20:30,152.5
+A,Marne-la-Vallée,Auber,20:00,20:30,211.2
+A,Marne-la-Vallée,Châtelet-Les Halles,20:00,20:30,281.6
+A,Marne-la-Vallée,Gare de Lyon,20:00,20:30,223
+A,Marne-la-Vallée,Nation,20:00,20:30,129.1
+A,Marne-la-Vallée,Vincennes,20:00,20:30,82.1
+A,Marne-la-Vallée,Val de Fontenay,20:00,20:30,105.6
+A,Marne-la-Vallée,Noisy-le-Grand,20:00,20:30,70.4
+A,Marne-la-Vallée,Noisy-Champs,20:00,20:30,42.2
+A,Marne-la-Vallée,Torcy,20:00,20:30,23.5
+A,Marne-la-Vallée,Saint-Germain-en-Laye,20:30,21:00,82.4
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,20:30,21:00,99.6
+A,Marne-la-Vallée,Le Vésinet-Centre,20:30,21:00,82.3
+A,Marne-la-Vallée,Chatou-Croissy,20:30,21:00,91.7
+A,Marne-la-Vallée,Rueil-Malmaison,20:30,21:00,108.3
+A,Marne-la-Vallée,Nanterre-Ville,20:30,21:00,113.3
+A,Marne-la-Vallée,Nanterre-Université,20:30,21:00,106.6
+A,Marne-la-Vallée,Nanterre-Préfecture,20:30,21:00,204
+A,Marne-la-Vallée,La Défense,20:30,21:00,258.3
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,20:30,21:00,108.3
+A,Marne-la-Vallée,Auber,20:30,21:00,150
+A,Marne-la-Vallée,Châtelet-Les Halles,20:30,21:00,199.9
+A,Marne-la-Vallée,Gare de Lyon,20:30,21:00,158.3
+A,Marne-la-Vallée,Nation,20:30,21:00,91.6
+A,Marne-la-Vallée,Vincennes,20:30,21:00,58.3
+A,Marne-la-Vallée,Val de Fontenay,20:30,21:00,75
+A,Marne-la-Vallée,Noisy-le-Grand,20:30,21:00,50
+A,Marne-la-Vallée,Noisy-Champs,20:30,21:00,30
+A,Marne-la-Vallée,Torcy,20:30,21:00,16.7
+A,Marne-la-Vallée,Saint-Germain-en-Laye,21:00,21:30,73.3
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,21:00,21:30,88.5
+A,Marne-la-Vallée,Le Vésinet-Centre,21:00,21:30,73.2
+A,Marne-la-Vallée,Chatou-Croissy,21:00,21:30,81.6
+A,Marne-la-Vallée,Rueil-Malmaison,21:00,21:30,96.3
+A,Marne-la-Vallée,Nanterre-Ville,21:00,21:30,100.8
+A,Marne-la-Vallée,Nanterre-Université,21:00,21:30,94.8
+A,Marne-la-Vallée,Nanterre-Préfecture,21:00,21:30,181.4
+A,Marne-la-Vallée,La Défense,21:00,21:30,229.7
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,21:00,21:30,96.3
+A,Marne-la-Vallée,Auber,21:00,21:30,133.4
+A,Marne-la-Vallée,Châtelet-Les Halles,21:00,21:30,177.8
+A,Marne-la-Vallée,Gare de Lyon,21:00,21:30,140.8
+A,Marne-la-Vallée,Nation,21:00,21:30,81.5
+A,Marne-la-Vallée,Vincennes,21:00,21:30,51.9
+A,Marne-la-Vallée,Val de Fontenay,21:00,21:30,66.7
+A,Marne-la-Vallée,Noisy-le-Grand,21:00,21:30,44.5
+A,Marne-la-Vallée,Noisy-Champs,21:00,21:30,26.7
+A,Marne-la-Vallée,Torcy,21:00,21:30,14.8
+A,Marne-la-Vallée,Saint-Germain-en-Laye,21:30,22:00,71.5
+A,Marne-la-Vallée,Le Vésinet-Le Pecq,21:30,22:00,86.4
+A,Marne-la-Vallée,Le Vésinet-Centre,21:30,22:00,71.4
+A,Marne-la-Vallée,Chatou-Croissy,21:30,22:00,79.6
+A,Marne-la-Vallée,Rueil-Malmaison,21:30,22:00,93.9
+A,Marne-la-Vallée,Nanterre-Ville,21:30,22:00,98.3
+A,Marne-la-Vallée,Nanterre-Université,21:30,22:00,92.5
+A,Marne-la-Vallée,Nanterre-Préfecture,21:30,22:00,177
+A,Marne-la-Vallée,La Défense,21:30,22:00,224.1
+A,Marne-la-Vallée,Charles de Gaulle-Étoile,21:30,22:00,94
+A,Marne-la-Vallée,Auber,21:30,22:00,130.1
+A,Marne-la-Vallée,Châtelet-Les Halles,21:30,22:00,173.5
+A,Marne-la-Vallée,Gare de Lyon,21:30,22:00,137.3
+A,Marne-la-Vallée,Nation,21:30,22:00,79.5
+A,Marne-la-Vallée,Vincennes,21:30,22:00,50.6
+A,Marne-la-Vallée,Val de Fontenay,21:30,22:00,65.1
+A,Marne-la-Vallée,Noisy-le-Grand,21:30,22:00,43.4
+A,Marne-la-Vallée,Noisy-Champs,21:30,22:00,26
+A,Marne-la-Vallée,Torcy,21:30,22:00,14.5
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,06:00,06:30,418.3
+A,Saint-Germain-en-Laye,Torcy,06:00,06:30,348.6
+A,Saint-Germain-en-Laye,Noisy-Champs,06:00,06:30,251
+A,Saint-Germain-en-Laye,Noisy-le-Grand,06:00,06:30,320.7
+A,Saint-Germain-en-Laye,Val de Fontenay,06:00,06:30,306.7
+A,Saint-Germain-en-Laye,Vincennes,06:00,06:30,264.9
+A,Saint-Germain-en-Laye,Nation,06:00,06:30,223.1
+A,Saint-Germain-en-Laye,Gare de Lyon,06:00,06:30,181.2
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,06:00,06:30,111.5
+A,Saint-Germain-en-Laye,Auber,06:00,06:30,55.8
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,06:00,06:30,33.5
+A,Saint-Germain-en-Laye,La Défense,06:00,06:30,34.2
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,06:00,06:30,32.4
+A,Saint-Germain-en-Laye,Nanterre-Université,06:00,06:30,15.8
+A,Saint-Germain-en-Laye,Nanterre-Ville,06:00,06:30,12.9
+A,Saint-Germain-en-Laye,Rueil-Malmaison,06:00,06:30,10.7
+A,Saint-Germain-en-Laye,Chatou-Croissy,06:00,06:30,7.3
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,06:00,06:30,5.4
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,06:00,06:30,6.7
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,06:00,06:30,3.4
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,06:30,07:00,761.3
+A,Saint-Germain-en-Laye,Torcy,06:30,07:00,634.4
+A,Saint-Germain-en-Laye,Noisy-Champs,06:30,07:00,456.8
+A,Saint-Germain-en-Laye,Noisy-le-Grand,06:30,07:00,583.7
+A,Saint-Germain-en-Laye,Val de Fontenay,06:30,07:00,558.3
+A,Saint-Germain-en-Laye,Vincennes,06:30,07:00,482.2
+A,Saint-Germain-en-Laye,Nation,06:30,07:00,406
+A,Saint-Germain-en-Laye,Gare de Lyon,06:30,07:00,329.9
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,06:30,07:00,203
+A,Saint-Germain-en-Laye,Auber,06:30,07:00,101.5
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,06:30,07:00,60.9
+A,Saint-Germain-en-Laye,La Défense,06:30,07:00,62.3
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,06:30,07:00,58.9
+A,Saint-Germain-en-Laye,Nanterre-Université,06:30,07:00,28.7
+A,Saint-Germain-en-Laye,Nanterre-Ville,06:30,07:00,23.4
+A,Saint-Germain-en-Laye,Rueil-Malmaison,06:30,07:00,19.4
+A,Saint-Germain-en-Laye,Chatou-Croissy,06:30,07:00,13.2
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,06:30,07:00,9.9
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,06:30,07:00,12.1
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,06:30,07:00,6.3
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,07:00,07:30,1307.8
+A,Saint-Germain-en-Laye,Torcy,07:00,07:30,1089.8
+A,Saint-Germain-en-Laye,Noisy-Champs,07:00,07:30,784.7
+A,Saint-Germain-en-Laye,Noisy-le-Grand,07:00,07:30,1002.6
+A,Saint-Germain-en-Laye,Val de Fontenay,07:00,07:30,959
+A,Saint-Germain-en-Laye,Vincennes,07:00,07:30,828.2
+A,Saint-Germain-en-Laye,Nation,07:00,07:30,697.5
+A,Saint-Germain-en-Laye,Gare de Lyon,07:00,07:30,566.7
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,07:00,07:30,348.7
+A,Saint-Germain-en-Laye,Auber,07:00,07:30,174.4
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,07:00,07:30,104.6
+A,Saint-Germain-en-Laye,La Défense,07:00,07:30,106.9
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,07:00,07:30,101.2
+A,Saint-Germain-en-Laye,Nanterre-Université,07:00,07:30,49.3
+A,Saint-Germain-en-Laye,Nanterre-Ville,07:00,07:30,40.3
+A,Saint-Germain-en-Laye,Rueil-Malmaison,07:00,07:30,33.3
+A,Saint-Germain-en-Laye,Chatou-Croissy,07:00,07:30,22.8
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,07:00,07:30,17
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,07:00,07:30,20.8
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,07:00,07:30,10.8
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,07:30,08:00,1839.3
+A,Saint-Germain-en-Laye,Torcy,07:30,08:00,1532.8
+A,Saint-Germain-en-Laye,Noisy-Champs,07:30,08:00,1103.6
+A,Saint-Germain-en-Laye,Noisy-le-Grand,07:30,08:00,1410.2
+A,Saint-Germain-en-Laye,Val de Fontenay,07:30,08:00,1348.8
+A,Saint-Germain-en-Laye,Vincennes,07:30,08:00,1164.9
+A,Saint-Germain-en-Laye,Nation,07:30,08:00,981
+A,Saint-Germain-en-Laye,Gare de Lyon,07:30,08:00,797
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,07:30,08:00,490.5
+A,Saint-Germain-en-Laye,Auber,07:30,08:00,245.2
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,07:30,08:00,147.1
+A,Saint-Germain-en-Laye,La Défense,07:30,08:00,150.4
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,07:30,08:00,142.3
+A,Saint-Germain-en-Laye,Nanterre-Université,07:30,08:00,69.4
+A,Saint-Germain-en-Laye,Nanterre-Ville,07:30,08:00,56.6
+A,Saint-Germain-en-Laye,Rueil-Malmaison,07:30,08:00,46.8
+A,Saint-Germain-en-Laye,Chatou-Croissy,07:30,08:00,32
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,07:30,08:00,23.8
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,07:30,08:00,29.2
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,07:30,08:00,15.1
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,08:00,08:30,2008.6
+A,Saint-Germain-en-Laye,Torcy,08:00,08:30,1673.8
+A,Saint-Germain-en-Laye,Noisy-Champs,08:00,08:30,1205.1
+A,Saint-Germain-en-Laye,Noisy-le-Grand,08:00,08:30,1539.9
+A,Saint-Germain-en-Laye,Val de Fontenay,08:00,08:30,1473
+A,Saint-Germain-en-Laye,Vincennes,08:00,08:30,1272.1
+A,Saint-Germain-en-Laye,Nation,08:00,08:30,1071.2
+A,Saint-Germain-en-Laye,Gare de Lyon,08:00,08:30,870.4
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,08:00,08:30,535.6
+A,Saint-Germain-en-Laye,Auber,08:00,08:30,267.8
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,08:00,08:30,160.7
+A,Saint-Germain-en-Laye,La Défense,08:00,08:30,164.3
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,08:00,08:30,155.5
+A,Saint-Germain-en-Laye,Nanterre-Université,08:00,08:30,75.8
+A,Saint-Germain-en-Laye,Nanterre-Ville,08:00,08:30,61.8
+A,Saint-Germain-en-Laye,Rueil-Malmaison,08:00,08:30,51.2
+A,Saint-Germain-en-Laye,Chatou-Croissy,08:00,08:30,35
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,08:00,08:30,26.1
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,08:00,08:30,31.9
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,08:00,08:30,16.5
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,08:30,09:00,1686.1
+A,Saint-Germain-en-Laye,Torcy,08:30,09:00,1405.1
+A,Saint-Germain-en-Laye,Noisy-Champs,08:30,09:00,1011.6
+A,Saint-Germain-en-Laye,Noisy-le-Grand,08:30,09:00,1292.7
+A,Saint-Germain-en-Laye,Val de Fontenay,08:30,09:00,1236.4
+A,Saint-Germain-en-Laye,Vincennes,08:30,09:00,1067.8
+A,Saint-Germain-en-Laye,Nation,08:30,09:00,899.2
+A,Saint-Germain-en-Laye,Gare de Lyon,08:30,09:00,730.6
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,08:30,09:00,449.6
+A,Saint-Germain-en-Laye,Auber,08:30,09:00,224.8
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,08:30,09:00,134.9
+A,Saint-Germain-en-Laye,La Défense,08:30,09:00,137.9
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,08:30,09:00,130.5
+A,Saint-Germain-en-Laye,Nanterre-Université,08:30,09:00,63.6
+A,Saint-Germain-en-Laye,Nanterre-Ville,08:30,09:00,51.9
+A,Saint-Germain-en-Laye,Rueil-Malmaison,08:30,09:00,42.9
+A,Saint-Germain-en-Laye,Chatou-Croissy,08:30,09:00,29.3
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,08:30,09:00,21.9
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,08:30,09:00,26.8
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,08:30,09:00,13.9
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,09:00,09:30,1111.3
+A,Saint-Germain-en-Laye,Torcy,09:00,09:30,926.1
+A,Saint-Germain-en-Laye,Noisy-Champs,09:00,09:30,666.8
+A,Saint-Germain-en-Laye,Noisy-le-Grand,09:00,09:30,852
+A,Saint-Germain-en-Laye,Val de Fontenay,09:00,09:30,815
+A,Saint-Germain-en-Laye,Vincennes,09:00,09:30,703.8
+A,Saint-Germain-en-Laye,Nation,09:00,09:30,592.7
+A,Saint-Germain-en-Laye,Gare de Lyon,09:00,09:30,481.6
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,09:00,09:30,296.4
+A,Saint-Germain-en-Laye,Auber,09:00,09:30,148.2
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,09:00,09:30,88.9
+A,Saint-Germain-en-Laye,La Défense,09:00,09:30,90.9
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,09:00,09:30,86
+A,Saint-Germain-en-Laye,Nanterre-Université,09:00,09:30,41.9
+A,Saint-Germain-en-Laye,Nanterre-Ville,09:00,09:30,34.2
+A,Saint-Germain-en-Laye,Rueil-Malmaison,09:00,09:30,28.3
+A,Saint-Germain-en-Laye,Chatou-Croissy,09:00,09:30,19.3
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,09:00,09:30,14.4
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,09:00,09:30,17.7
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,09:00,09:30,9.2
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,09:30,10:00,621
+A,Saint-Germain-en-Laye,Torcy,09:30,10:00,517.5
+A,Saint-Germain-en-Laye,Noisy-Champs,09:30,10:00,372.6
+A,Saint-Germain-en-Laye,Noisy-le-Grand,09:30,10:00,476.1
+A,Saint-Germain-en-Laye,Val de Fontenay,09:30,10:00,455.4
+A,Saint-Germain-en-Laye,Vincennes,09:30,10:00,393.3
+A,Saint-Germain-en-Laye,Nation,09:30,10:00,331.2
+A,Saint-Germain-en-Laye,Gare de Lyon,09:30,10:00,269.1
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,09:30,10:00,165.6
+A,Saint-Germain-en-Laye,Auber,09:30,10:00,82.8
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,09:30,10:00,49.7
+A,Saint-Germain-en-Laye,La Défense,09:30,10:00,50.8
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,09:30,10:00,48.1
+A,Saint-Germain-en-Laye,Nanterre-Université,09:30,10:00,23.4
+A,Saint-Germain-en-Laye,Nanterre-Ville,09:30,10:00,19.1
+A,Saint-Germain-en-Laye,Rueil-Malmaison,09:30,10:00,15.8
+A,Saint-Germain-en-Laye,Chatou-Croissy,09:30,10:00,10.8
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,09:30,10:00,8.1
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,09:30,10:00,9.9
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,09:30,10:00,5.1
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,10:00,10:30,352
+A,Saint-Germain-en-Laye,Torcy,10:00,10:30,293.4
+A,Saint-Germain-en-Laye,Noisy-Champs,10:00,10:30,211.2
+A,Saint-Germain-en-Laye,Noisy-le-Grand,10:00,10:30,269.9
+A,Saint-Germain-en-Laye,Val de Fontenay,10:00,10:30,258.2
+A,Saint-Germain-en-Laye,Vincennes,10:00,10:30,223
+A,Saint-Germain-en-Laye,Nation,10:00,10:30,187.8
+A,Saint-Germain-en-Laye,Gare de Lyon,10:00,10:30,152.5
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,10:00,10:30,93.9
+A,Saint-Germain-en-Laye,Auber,10:00,10:30,46.9
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,10:00,10:30,28.2
+A,Saint-Germain-en-Laye,La Défense,10:00,10:30,28.8
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,10:00,10:30,27.3
+A,Saint-Germain-en-Laye,Nanterre-Université,10:00,10:30,13.3
+A,Saint-Germain-en-Laye,Nanterre-Ville,10:00,10:30,10.9
+A,Saint-Germain-en-Laye,Rueil-Malmaison,10:00,10:30,9
+A,Saint-Germain-en-Laye,Chatou-Croissy,10:00,10:30,6.1
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,10:00,10:30,4.6
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,10:00,10:30,5.6
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,10:00,10:30,2.9
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,10:30,11:00,249.9
+A,Saint-Germain-en-Laye,Torcy,10:30,11:00,208.3
+A,Saint-Germain-en-Laye,Noisy-Champs,10:30,11:00,150
+A,Saint-Germain-en-Laye,Noisy-le-Grand,10:30,11:00,191.6
+A,Saint-Germain-en-Laye,Val de Fontenay,10:30,11:00,183.3
+A,Saint-Germain-en-Laye,Vincennes,10:30,11:00,158.3
+A,Saint-Germain-en-Laye,Nation,10:30,11:00,133.3
+A,Saint-Germain-en-Laye,Gare de Lyon,10:30,11:00,108.3
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,10:30,11:00,66.6
+A,Saint-Germain-en-Laye,Auber,10:30,11:00,33.3
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,10:30,11:00,20
+A,Saint-Germain-en-Laye,La Défense,10:30,11:00,20.4
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,10:30,11:00,19.3
+A,Saint-Germain-en-Laye,Nanterre-Université,10:30,11:00,9.4
+A,Saint-Germain-en-Laye,Nanterre-Ville,10:30,11:00,7.7
+A,Saint-Germain-en-Laye,Rueil-Malmaison,10:30,11:00,6.4
+A,Saint-Germain-en-Laye,Chatou-Croissy,10:30,11:00,4.4
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,10:30,11:00,3.2
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,10:30,11:00,4
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,10:30,11:00,2.1
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,11:00,11:30,222.3
+A,Saint-Germain-en-Laye,Torcy,11:00,11:30,185.2
+A,Saint-Germain-en-Laye,Noisy-Champs,11:00,11:30,133.4
+A,Saint-Germain-en-Laye,Noisy-le-Grand,11:00,11:30,170.4
+A,Saint-Germain-en-Laye,Val de Fontenay,11:00,11:30,163
+A,Saint-Germain-en-Laye,Vincennes,11:00,11:30,140.8
+A,Saint-Germain-en-Laye,Nation,11:00,11:30,118.6
+A,Saint-Germain-en-Laye,Gare de Lyon,11:00,11:30,96.3
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,11:00,11:30,59.3
+A,Saint-Germain-en-Laye,Auber,11:00,11:30,29.6
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,11:00,11:30,17.8
+A,Saint-Germain-en-Laye,La Défense,11:00,11:30,18.2
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,11:00,11:30,17.2
+A,Saint-Germain-en-Laye,Nanterre-Université,11:00,11:30,8.4
+A,Saint-Germain-en-Laye,Nanterre-Ville,11:00,11:30,6.9
+A,Saint-Germain-en-Laye,Rueil-Malmaison,11:00,11:30,5.7
+A,Saint-Germain-en-Laye,Chatou-Croissy,11:00,11:30,3.9
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,11:00,11:30,2.9
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,11:00,11:30,3.5
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,11:00,11:30,1.8
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,11:30,12:00,216.9
+A,Saint-Germain-en-Laye,Torcy,11:30,12:00,180.7
+A,Saint-Germain-en-Laye,Noisy-Champs,11:30,12:00,130.1
+A,Saint-Germain-en-Laye,Noisy-le-Grand,11:30,12:00,166.3
+A,Saint-Germain-en-Laye,Val de Fontenay,11:30,12:00,159
+A,Saint-Germain-en-Laye,Vincennes,11:30,12:00,137.3
+A,Saint-Germain-en-Laye,Nation,11:30,12:00,115.7
+A,Saint-Germain-en-Laye,Gare de Lyon,11:30,12:00,94
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,11:30,12:00,57.8
+A,Saint-Germain-en-Laye,Auber,11:30,12:00,28.9
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,11:30,12:00,17.3
+A,Saint-Germain-en-Laye,La Défense,11:30,12:00,17.7
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,11:30,12:00,16.7
+A,Saint-Germain-en-Laye,Nanterre-Université,11:30,12:00,8.2
+A,Saint-Germain-en-Laye,Nanterre-Ville,11:30,12:00,6.7
+A,Saint-Germain-en-Laye,Rueil-Malmaison,11:30,12:00,5.5
+A,Saint-Germain-en-Laye,Chatou-Croissy,11:30,12:00,3.8
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,11:30,12:00,2.8
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,11:30,12:00,3.4
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,11:30,12:00,1.8
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,12:00,12:30,216.1
+A,Saint-Germain-en-Laye,Torcy,12:00,12:30,180.1
+A,Saint-Germain-en-Laye,Noisy-Champs,12:00,12:30,129.7
+A,Saint-Germain-en-Laye,Noisy-le-Grand,12:00,12:30,165.7
+A,Saint-Germain-en-Laye,Val de Fontenay,12:00,12:30,158.5
+A,Saint-Germain-en-Laye,Vincennes,12:00,12:30,136.9
+A,Saint-Germain-en-Laye,Nation,12:00,12:30,115.2
+A,Saint-Germain-en-Laye,Gare de Lyon,12:00,12:30,93.6
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,12:00,12:30,57.6
+A,Saint-Germain-en-Laye,Auber,12:00,12:30,28.8
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,12:00,12:30,17.3
+A,Saint-Germain-en-Laye,La Défense,12:00,12:30,17.7
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,12:00,12:30,16.7
+A,Saint-Germain-en-Laye,Nanterre-Université,12:00,12:30,8.2
+A,Saint-Germain-en-Laye,Nanterre-Ville,12:00,12:30,6.7
+A,Saint-Germain-en-Laye,Rueil-Malmaison,12:00,12:30,5.5
+A,Saint-Germain-en-Laye,Chatou-Croissy,12:00,12:30,3.8
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,12:00,12:30,2.8
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,12:00,12:30,3.4
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,12:00,12:30,1.8
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,12:30,13:00,216
+A,Saint-Germain-en-Laye,Torcy,12:30,13:00,180
+A,Saint-Germain-en-Laye,Noisy-Champs,12:30,13:00,129.6
+A,Saint-Germain-en-Laye,Noisy-le-Grand,12:30,13:00,165.6
+A,Saint-Germain-en-Laye,Val de Fontenay,12:30,13:00,158.4
+A,Saint-Germain-en-Laye,Vincennes,12:30,13:00,136.8
+A,Saint-Germain-en-Laye,Nation,12:30,13:00,115.2
+A,Saint-Germain-en-Laye,Gare de Lyon,12:30,13:00,93.6
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,12:30,13:00,57.6
+A,Saint-Germain-en-Laye,Auber,12:30,13:00,28.8
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,12:30,13:00,17.3
+A,Saint-Germain-en-Laye,La Défense,12:30,13:00,17.7
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,12:30,13:00,16.7
+A,Saint-Germain-en-Laye,Nanterre-Université,12:30,13:00,8.2
+A,Saint-Germain-en-Laye,Nanterre-Ville,12:30,13:00,6.7
+A,Saint-Germain-en-Laye,Rueil-Malmaison,12:30,13:00,5.5
+A,Saint-Germain-en-Laye,Chatou-Croissy,12:30,13:00,3.8
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,12:30,13:00,2.8
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,12:30,13:00,3.4
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,12:30,13:00,1.8
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,13:00,13:30,216.2
+A,Saint-Germain-en-Laye,Torcy,13:00,13:30,180.2
+A,Saint-Germain-en-Laye,Noisy-Champs,13:00,13:30,129.7
+A,Saint-Germain-en-Laye,Noisy-le-Grand,13:00,13:30,165.8
+A,Saint-Germain-en-Laye,Val de Fontenay,13:00,13:30,158.5
+A,Saint-Germain-en-Laye,Vincennes,13:00,13:30,136.9
+A,Saint-Germain-en-Laye,Nation,13:00,13:30,115.3
+A,Saint-Germain-en-Laye,Gare de Lyon,13:00,13:30,93.7
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,13:00,13:30,57.7
+A,Saint-Germain-en-Laye,Auber,13:00,13:30,28.8
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,13:00,13:30,17.3
+A,Saint-Germain-en-Laye,La Défense,13:00,13:30,17.7
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,13:00,13:30,16.7
+A,Saint-Germain-en-Laye,Nanterre-Université,13:00,13:30,8.2
+A,Saint-Germain-en-Laye,Nanterre-Ville,13:00,13:30,6.7
+A,Saint-Germain-en-Laye,Rueil-Malmaison,13:00,13:30,5.5
+A,Saint-Germain-en-Laye,Chatou-Croissy,13:00,13:30,3.8
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,13:00,13:30,2.8
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,13:00,13:30,3.4
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,13:00,13:30,1.8
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,13:30,14:00,217.1
+A,Saint-Germain-en-Laye,Torcy,13:30,14:00,180.9
+A,Saint-Germain-en-Laye,Noisy-Champs,13:30,14:00,130.2
+A,Saint-Germain-en-Laye,Noisy-le-Grand,13:30,14:00,166.4
+A,Saint-Germain-en-Laye,Val de Fontenay,13:30,14:00,159.2
+A,Saint-Germain-en-Laye,Vincennes,13:30,14:00,137.5
+A,Saint-Germain-en-Laye,Nation,13:30,14:00,115.8
+A,Saint-Germain-en-Laye,Gare de Lyon,13:30,14:00,94.1
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,13:30,14:00,57.9
+A,Saint-Germain-en-Laye,Auber,13:30,14:00,28.9
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,13:30,14:00,17.4
+A,Saint-Germain-en-Laye,La Défense,13:30,14:00,17.8
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,13:30,14:00,16.8
+A,Saint-Germain-en-Laye,Nanterre-Université,13:30,14:00,8.2
+A,Saint-Germain-en-Laye,Nanterre-Ville,13:30,14:00,6.7
+A,Saint-Germain-en-Laye,Rueil-Malmaison,13:30,14:00,5.5
+A,Saint-Germain-en-Laye,Chatou-Croissy,13:30,14:00,3.8
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,13:30,14:00,2.8
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,13:30,14:00,3.5
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,13:30,14:00,1.8
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,14:00,14:30,220.6
+A,Saint-Germain-en-Laye,Torcy,14:00,14:30,183.9
+A,Saint-Germain-en-Laye,Noisy-Champs,14:00,14:30,132.4
+A,Saint-Germain-en-Laye,Noisy-le-Grand,14:00,14:30,169.1
+A,Saint-Germain-en-Laye,Val de Fontenay,14:00,14:30,161.8
+A,Saint-Germain-en-Laye,Vincennes,14:00,14:30,139.7
+A,Saint-Germain-en-Laye,Nation,14:00,14:30,117.7
+A,Saint-Germain-en-Laye,Gare de Lyon,14:00,14:30,95.6
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,14:00,14:30,58.8
+A,Saint-Germain-en-Laye,Auber,14:00,14:30,29.4
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,14:00,14:30,17.6
+A,Saint-Germain-en-Laye,La Défense,14:00,14:30,18
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,14:00,14:30,17
+A,Saint-Germain-en-Laye,Nanterre-Université,14:00,14:30,8.3
+A,Saint-Germain-en-Laye,Nanterre-Ville,14:00,14:30,6.8
+A,Saint-Germain-en-Laye,Rueil-Malmaison,14:00,14:30,5.6
+A,Saint-Germain-en-Laye,Chatou-Croissy,14:00,14:30,3.8
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,14:00,14:30,2.9
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,14:00,14:30,3.5
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,14:00,14:30,1.8
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,14:30,15:00,232.7
+A,Saint-Germain-en-Laye,Torcy,14:30,15:00,193.9
+A,Saint-Germain-en-Laye,Noisy-Champs,14:30,15:00,139.6
+A,Saint-Germain-en-Laye,Noisy-le-Grand,14:30,15:00,178.4
+A,Saint-Germain-en-Laye,Val de Fontenay,14:30,15:00,170.7
+A,Saint-Germain-en-Laye,Vincennes,14:30,15:00,147.4
+A,Saint-Germain-en-Laye,Nation,14:30,15:00,124.1
+A,Saint-Germain-en-Laye,Gare de Lyon,14:30,15:00,100.8
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,14:30,15:00,62.1
+A,Saint-Germain-en-Laye,Auber,14:30,15:00,31
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,14:30,15:00,18.6
+A,Saint-Germain-en-Laye,La Défense,14:30,15:00,19
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,14:30,15:00,18
+A,Saint-Germain-en-Laye,Nanterre-Université,14:30,15:00,8.8
+A,Saint-Germain-en-Laye,Nanterre-Ville,14:30,15:00,7.2
+A,Saint-Germain-en-Laye,Rueil-Malmaison,14:30,15:00,5.9
+A,Saint-Germain-en-Laye,Chatou-Croissy,14:30,15:00,4
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,14:30,15:00,3
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,14:30,15:00,3.7
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,14:30,15:00,1.9
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,15:00,15:30,266.3
+A,Saint-Germain-en-Laye,Torcy,15:00,15:30,222
+A,Saint-Germain-en-Laye,Noisy-Champs,15:00,15:30,159.8
+A,Saint-Germain-en-Laye,Noisy-le-Grand,15:00,15:30,204.2
+A,Saint-Germain-en-Laye,Val de Fontenay,15:00,15:30,195.3
+A,Saint-Germain-en-Laye,Vincennes,15:00,15:30,168.7
+A,Saint-Germain-en-Laye,Nation,15:00,15:30,142.1
+A,Saint-Germain-en-Laye,Gare de Lyon,15:00,15:30,115.4
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,15:00,15:30,71
+A,Saint-Germain-en-Laye,Auber,15:00,15:30,35.5
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,15:00,15:30,21.3
+A,Saint-Germain-en-Laye,La Défense,15:00,15:30,21.8
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,15:00,15:30,20.6
+A,Saint-Germain-en-Laye,Nanterre-Université,15:00,15:30,10
+A,Saint-Germain-en-Laye,Nanterre-Ville,15:00,15:30,8.2
+A,Saint-Germain-en-Laye,Rueil-Malmaison,15:00,15:30,6.8
+A,Saint-Germain-en-Laye,Chatou-Croissy,15:00,15:30,4.6
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,15:00,15:30,3.5
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,15:00,15:30,4.2
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,15:00,15:30,2.2
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,15:30,16:00,342.1
+A,Saint-Germain-en-Laye,Torcy,15:30,16:00,285.1
+A,Saint-Germain-en-Laye,Noisy-Champs,15:30,16:00,205.3
+A,Saint-Germain-en-Laye,Noisy-le-Grand,15:30,16:00,262.3
+A,Saint-Germain-en-Laye,Val de Fontenay,15:30,16:00,250.9
+A,Saint-Germain-en-Laye,Vincennes,15:30,16:00,216.7
+A,Saint-Germain-en-Laye,Nation,15:30,16:00,182.5
+A,Saint-Germain-en-Laye,Gare de Lyon,15:30,16:00,148.3
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,15:30,16:00,91.2
+A,Saint-Germain-en-Laye,Auber,15:30,16:00,45.6
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,15:30,16:00,27.4
+A,Saint-Germain-en-Laye,La Défense,15:30,16:00,28
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,15:30,16:00,26.5
+A,Saint-Germain-en-Laye,Nanterre-Université,15:30,16:00,12.9
+A,Saint-Germain-en-Laye,Nanterre-Ville,15:30,16:00,10.5
+A,Saint-Germain-en-Laye,Rueil-Malmaison,15:30,16:00,8.7
+A,Saint-Germain-en-Laye,Chatou-Croissy,15:30,16:00,6
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,15:30,16:00,4.4
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,15:30,16:00,5.4
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,15:30,16:00,2.8
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,16:00,16:30,479
+A,Saint-Germain-en-Laye,Torcy,16:00,16:30,399.1
+A,Saint-Germain-en-Laye,Noisy-Champs,16:00,16:30,287.4
+A,Saint-Germain-en-Laye,Noisy-le-Grand,16:00,16:30,367.2
+A,Saint-Germain-en-Laye,Val de Fontenay,16:00,16:30,351.2
+A,Saint-Germain-en-Laye,Vincennes,16:00,16:30,303.3
+A,Saint-Germain-en-Laye,Nation,16:00,16:30,255.4
+A,Saint-Germain-en-Laye,Gare de Lyon,16:00,16:30,207.6
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,16:00,16:30,127.7
+A,Saint-Germain-en-Laye,Auber,16:00,16:30,63.9
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,16:00,16:30,38.3
+A,Saint-Germain-en-Laye,La Défense,16:00,16:30,39.2
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,16:00,16:30,37
+A,Saint-Germain-en-Laye,Nanterre-Université,16:00,16:30,18.1
+A,Saint-Germain-en-Laye,Nanterre-Ville,16:00,16:30,14.7
+A,Saint-Germain-en-Laye,Rueil-Malmaison,16:00,16:30,12.2
+A,Saint-Germain-en-Laye,Chatou-Croissy,16:00,16:30,8.3
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,16:00,16:30,6.2
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,16:00,16:30,7.6
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,16:00,16:30,3.9
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,16:30,17:00,672.3
+A,Saint-Germain-en-Laye,Torcy,16:30,17:00,560.2
+A,Saint-Germain-en-Laye,Noisy-Champs,16:30,17:00,403.4
+A,Saint-Germain-en-Laye,Noisy-le-Grand,16:30,17:00,515.4
+A,Saint-Germain-en-Laye,Val de Fontenay,16:30,17:00,493
+A,Saint-Germain-en-Laye,Vincennes,16:30,17:00,425.8
+A,Saint-Germain-en-Laye,Nation,16:30,17:00,358.5
+A,Saint-Germain-en-Laye,Gare de Lyon,16:30,17:00,291.3
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,16:30,17:00,179.3
+A,Saint-Germain-en-Laye,Auber,16:30,17:00,89.6
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,16:30,17:00,53.8
+A,Saint-Germain-en-Laye,La Défense,16:30,17:00,55
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,16:30,17:00,52
+A,Saint-Germain-en-Laye,Nanterre-Université,16:30,17:00,25.4
+A,Saint-Germain-en-Laye,Nanterre-Ville,16:30,17:00,20.7
+A,Saint-Germain-en-Laye,Rueil-Malmaison,16:30,17:00,17.1
+A,Saint-Germain-en-Laye,Chatou-Croissy,16:30,17:00,11.7
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,16:30,17:00,8.7
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,16:30,17:00,10.7
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,16:30,17:00,5.5
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,17:00,17:30,874.8
+A,Saint-Germain-en-Laye,Torcy,17:00,17:30,729
+A,Saint-Germain-en-Laye,Noisy-Champs,17:00,17:30,524.9
+A,Saint-Germain-en-Laye,Noisy-le-Grand,17:00,17:30,670.7
+A,Saint-Germain-en-Laye,Val de Fontenay,17:00,17:30,641.5
+A,Saint-Germain-en-Laye,Vincennes,17:00,17:30,554
+A,Saint-Germain-en-Laye,Nation,17:00,17:30,466.6
+A,Saint-Germain-en-Laye,Gare de Lyon,17:00,17:30,379.1
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,17:00,17:30,233.3
+A,Saint-Germain-en-Laye,Auber,17:00,17:30,116.6
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,17:00,17:30,70
+A,Saint-Germain-en-Laye,La Défense,17:00,17:30,71.6
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,17:00,17:30,67.7
+A,Saint-Germain-en-Laye,Nanterre-Université,17:00,17:30,33
+A,Saint-Germain-en-Laye,Nanterre-Ville,17:00,17:30,26.9
+A,Saint-Germain-en-Laye,Rueil-Malmaison,17:00,17:30,22.3
+A,Saint-Germain-en-Laye,Chatou-Croissy,17:00,17:30,15.2
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,17:00,17:30,11.3
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,17:00,17:30,13.9
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,17:00,17:30,7.2
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,17:30,18:00,1007.6
+A,Saint-Germain-en-Laye,Torcy,17:30,18:00,839.7
+A,Saint-Germain-en-Laye,Noisy-Champs,17:30,18:00,604.6
+A,Saint-Germain-en-Laye,Noisy-le-Grand,17:30,18:00,772.5
+A,Saint-Germain-en-Laye,Val de Fontenay,17:30,18:00,738.9
+A,Saint-Germain-en-Laye,Vincennes,17:30,18:00,638.2
+A,Saint-Germain-en-Laye,Nation,17:30,18:00,537.4
+A,Saint-Germain-en-Laye,Gare de Lyon,17:30,18:00,436.6
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,17:30,18:00,268.7
+A,Saint-Germain-en-Laye,Auber,17:30,18:00,134.3
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,17:30,18:00,80.6
+A,Saint-Germain-en-Laye,La Défense,17:30,18:00,82.4
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,17:30,18:00,78
+A,Saint-Germain-en-Laye,Nanterre-Université,17:30,18:00,38
+A,Saint-Germain-en-Laye,Nanterre-Ville,17:30,18:00,31
+A,Saint-Germain-en-Laye,Rueil-Malmaison,17:30,18:00,25.7
+A,Saint-Germain-en-Laye,Chatou-Croissy,17:30,18:00,17.5
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,17:30,18:00,13.1
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,17:30,18:00,16
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,17:30,18:00,8.3
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,18:00,18:30,1007.6
+A,Saint-Germain-en-Laye,Torcy,18:00,18:30,839.7
+A,Saint-Germain-en-Laye,Noisy-Champs,18:00,18:30,604.6
+A,Saint-Germain-en-Laye,Noisy-le-Grand,18:00,18:30,772.5
+A,Saint-Germain-en-Laye,Val de Fontenay,18:00,18:30,738.9
+A,Saint-Germain-en-Laye,Vincennes,18:00,18:30,638.2
+A,Saint-Germain-en-Laye,Nation,18:00,18:30,537.4
+A,Saint-Germain-en-Laye,Gare de Lyon,18:00,18:30,436.6
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,18:00,18:30,268.7
+A,Saint-Germain-en-Laye,Auber,18:00,18:30,134.3
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,18:00,18:30,80.6
+A,Saint-Germain-en-Laye,La Défense,18:00,18:30,82.4
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,18:00,18:30,78
+A,Saint-Germain-en-Laye,Nanterre-Université,18:00,18:30,38
+A,Saint-Germain-en-Laye,Nanterre-Ville,18:00,18:30,31
+A,Saint-Germain-en-Laye,Rueil-Malmaison,18:00,18:30,25.7
+A,Saint-Germain-en-Laye,Chatou-Croissy,18:00,18:30,17.5
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,18:00,18:30,13.1
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,18:00,18:30,16
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,18:00,18:30,8.3
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,18:30,19:00,874.8
+A,Saint-Germain-en-Laye,Torcy,18:30,19:00,729
+A,Saint-Germain-en-Laye,Noisy-Champs,18:30,19:00,524.9
+A,Saint-Germain-en-Laye,Noisy-le-Grand,18:30,19:00,670.7
+A,Saint-Germain-en-Laye,Val de Fontenay,18:30,19:00,641.5
+A,Saint-Germain-en-Laye,Vincennes,18:30,19:00,554
+A,Saint-Germain-en-Laye,Nation,18:30,19:00,466.6
+A,Saint-Germain-en-Laye,Gare de Lyon,18:30,19:00,379.1
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,18:30,19:00,233.3
+A,Saint-Germain-en-Laye,Auber,18:30,19:00,116.6
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,18:30,19:00,70
+A,Saint-Germain-en-Laye,La Défense,18:30,19:00,71.6
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,18:30,19:00,67.7
+A,Saint-Germain-en-Laye,Nanterre-Université,18:30,19:00,33
+A,Saint-Germain-en-Laye,Nanterre-Ville,18:30,19:00,26.9
+A,Saint-Germain-en-Laye,Rueil-Malmaison,18:30,19:00,22.3
+A,Saint-Germain-en-Laye,Chatou-Croissy,18:30,19:00,15.2
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,18:30,19:00,11.3
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,18:30,19:00,13.9
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,18:30,19:00,7.2
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,19:00,19:30,672.3
+A,Saint-Germain-en-Laye,Torcy,19:00,19:30,560.2
+A,Saint-Germain-en-Laye,Noisy-Champs,19:00,19:30,403.4
+A,Saint-Germain-en-Laye,Noisy-le-Grand,19:00,19:30,515.4
+A,Saint-Germain-en-Laye,Val de Fontenay,19:00,19:30,493
+A,Saint-Germain-en-Laye,Vincennes,19:00,19:30,425.8
+A,Saint-Germain-en-Laye,Nation,19:00,19:30,358.5
+A,Saint-Germain-en-Laye,Gare de Lyon,19:00,19:30,291.3
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,19:00,19:30,179.3
+A,Saint-Germain-en-Laye,Auber,19:00,19:30,89.6
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,19:00,19:30,53.8
+A,Saint-Germain-en-Laye,La Défense,19:00,19:30,55
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,19:00,19:30,52
+A,Saint-Germain-en-Laye,Nanterre-Université,19:00,19:30,25.4
+A,Saint-Germain-en-Laye,Nanterre-Ville,19:00,19:30,20.7
+A,Saint-Germain-en-Laye,Rueil-Malmaison,19:00,19:30,17.1
+A,Saint-Germain-en-Laye,Chatou-Croissy,19:00,19:30,11.7
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,19:00,19:30,8.7
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,19:00,19:30,10.7
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,19:00,19:30,5.5
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,19:30,20:00,479
+A,Saint-Germain-en-Laye,Torcy,19:30,20:00,399.1
+A,Saint-Germain-en-Laye,Noisy-Champs,19:30,20:00,287.4
+A,Saint-Germain-en-Laye,Noisy-le-Grand,19:30,20:00,367.2
+A,Saint-Germain-en-Laye,Val de Fontenay,19:30,20:00,351.2
+A,Saint-Germain-en-Laye,Vincennes,19:30,20:00,303.3
+A,Saint-Germain-en-Laye,Nation,19:30,20:00,255.4
+A,Saint-Germain-en-Laye,Gare de Lyon,19:30,20:00,207.6
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,19:30,20:00,127.7
+A,Saint-Germain-en-Laye,Auber,19:30,20:00,63.9
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,19:30,20:00,38.3
+A,Saint-Germain-en-Laye,La Défense,19:30,20:00,39.2
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,19:30,20:00,37
+A,Saint-Germain-en-Laye,Nanterre-Université,19:30,20:00,18.1
+A,Saint-Germain-en-Laye,Nanterre-Ville,19:30,20:00,14.7
+A,Saint-Germain-en-Laye,Rueil-Malmaison,19:30,20:00,12.2
+A,Saint-Germain-en-Laye,Chatou-Croissy,19:30,20:00,8.3
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,19:30,20:00,6.2
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,19:30,20:00,7.6
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,19:30,20:00,3.9
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,20:00,20:30,342.1
+A,Saint-Germain-en-Laye,Torcy,20:00,20:30,285.1
+A,Saint-Germain-en-Laye,Noisy-Champs,20:00,20:30,205.3
+A,Saint-Germain-en-Laye,Noisy-le-Grand,20:00,20:30,262.3
+A,Saint-Germain-en-Laye,Val de Fontenay,20:00,20:30,250.9
+A,Saint-Germain-en-Laye,Vincennes,20:00,20:30,216.7
+A,Saint-Germain-en-Laye,Nation,20:00,20:30,182.5
+A,Saint-Germain-en-Laye,Gare de Lyon,20:00,20:30,148.3
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,20:00,20:30,91.2
+A,Saint-Germain-en-Laye,Auber,20:00,20:30,45.6
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,20:00,20:30,27.4
+A,Saint-Germain-en-Laye,La Défense,20:00,20:30,28
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,20:00,20:30,26.5
+A,Saint-Germain-en-Laye,Nanterre-Université,20:00,20:30,12.9
+A,Saint-Germain-en-Laye,Nanterre-Ville,20:00,20:30,10.5
+A,Saint-Germain-en-Laye,Rueil-Malmaison,20:00,20:30,8.7
+A,Saint-Germain-en-Laye,Chatou-Croissy,20:00,20:30,6
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,20:00,20:30,4.4
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,20:00,20:30,5.4
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,20:00,20:30,2.8
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,20:30,21:00,266.3
+A,Saint-Germain-en-Laye,Torcy,20:30,21:00,222
+A,Saint-Germain-en-Laye,Noisy-Champs,20:30,21:00,159.8
+A,Saint-Germain-en-Laye,Noisy-le-Grand,20:30,21:00,204.2
+A,Saint-Germain-en-Laye,Val de Fontenay,20:30,21:00,195.3
+A,Saint-Germain-en-Laye,Vincennes,20:30,21:00,168.7
+A,Saint-Germain-en-Laye,Nation,20:30,21:00,142.1
+A,Saint-Germain-en-Laye,Gare de Lyon,20:30,21:00,115.4
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,20:30,21:00,71
+A,Saint-Germain-en-Laye,Auber,20:30,21:00,35.5
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,20:30,21:00,21.3
+A,Saint-Germain-en-Laye,La Défense,20:30,21:00,21.8
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,20:30,21:00,20.6
+A,Saint-Germain-en-Laye,Nanterre-Université,20:30,21:00,10
+A,Saint-Germain-en-Laye,Nanterre-Ville,20:30,21:00,8.2
+A,Saint-Germain-en-Laye,Rueil-Malmaison,20:30,21:00,6.8
+A,Saint-Germain-en-Laye,Chatou-Croissy,20:30,21:00,4.6
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,20:30,21:00,3.5
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,20:30,21:00,4.2
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,20:30,21:00,2.2
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,21:00,21:30,232.7
+A,Saint-Germain-en-Laye,Torcy,21:00,21:30,193.9
+A,Saint-Germain-en-Laye,Noisy-Champs,21:00,21:30,139.6
+A,Saint-Germain-en-Laye,Noisy-le-Grand,21:00,21:30,178.4
+A,Saint-Germain-en-Laye,Val de Fontenay,21:00,21:30,170.7
+A,Saint-Germain-en-Laye,Vincennes,21:00,21:30,147.4
+A,Saint-Germain-en-Laye,Nation,21:00,21:30,124.1
+A,Saint-Germain-en-Laye,Gare de Lyon,21:00,21:30,100.8
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,21:00,21:30,62.1
+A,Saint-Germain-en-Laye,Auber,21:00,21:30,31
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,21:00,21:30,18.6
+A,Saint-Germain-en-Laye,La Défense,21:00,21:30,19
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,21:00,21:30,18
+A,Saint-Germain-en-Laye,Nanterre-Université,21:00,21:30,8.8
+A,Saint-Germain-en-Laye,Nanterre-Ville,21:00,21:30,7.2
+A,Saint-Germain-en-Laye,Rueil-Malmaison,21:00,21:30,5.9
+A,Saint-Germain-en-Laye,Chatou-Croissy,21:00,21:30,4
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,21:00,21:30,3
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,21:00,21:30,3.7
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,21:00,21:30,1.9
+A,Saint-Germain-en-Laye,Marne-la-Vallée-Chessy,21:30,22:00,220.6
+A,Saint-Germain-en-Laye,Torcy,21:30,22:00,183.9
+A,Saint-Germain-en-Laye,Noisy-Champs,21:30,22:00,132.4
+A,Saint-Germain-en-Laye,Noisy-le-Grand,21:30,22:00,169.1
+A,Saint-Germain-en-Laye,Val de Fontenay,21:30,22:00,161.8
+A,Saint-Germain-en-Laye,Vincennes,21:30,22:00,139.7
+A,Saint-Germain-en-Laye,Nation,21:30,22:00,117.7
+A,Saint-Germain-en-Laye,Gare de Lyon,21:30,22:00,95.6
+A,Saint-Germain-en-Laye,Châtelet-Les Halles,21:30,22:00,58.8
+A,Saint-Germain-en-Laye,Auber,21:30,22:00,29.4
+A,Saint-Germain-en-Laye,Charles de Gaulle-Étoile,21:30,22:00,17.6
+A,Saint-Germain-en-Laye,La Défense,21:30,22:00,18
+A,Saint-Germain-en-Laye,Nanterre-Préfecture,21:30,22:00,17
+A,Saint-Germain-en-Laye,Nanterre-Université,21:30,22:00,8.3
+A,Saint-Germain-en-Laye,Nanterre-Ville,21:30,22:00,6.8
+A,Saint-Germain-en-Laye,Rueil-Malmaison,21:30,22:00,5.6
+A,Saint-Germain-en-Laye,Chatou-Croissy,21:30,22:00,3.8
+A,Saint-Germain-en-Laye,Le Vésinet-Centre,21:30,22:00,2.9
+A,Saint-Germain-en-Laye,Le Vésinet-Le Pecq,21:30,22:00,3.5
+A,Saint-Germain-en-Laye,Saint-Germain-en-Laye,21:30,22:00,1.8

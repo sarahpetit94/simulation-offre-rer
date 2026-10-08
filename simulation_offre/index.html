@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulation d'offre RER</title>
+  <style>
+    :root {
+      --bg: #f3f0e8;
+      --ink: #1c1a17;
+      --muted: #5f5a53;
+      --line: #ddd4c6;
+      --card: #fffdf8;
+      --accent: #0d5c4c;
+      --accent-soft: #e5f2ee;
+      --warn: #8a3d12;
+      --warn-soft: #f8efe6;
+      color-scheme: light;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 15px/1.45 "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+    }
+    header, main { max-width: 1180px; margin: 0 auto; padding: 28px 24px; }
+    header { padding-bottom: 0; }
+    h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.02em; }
+    h2 { font-size: 18px; font-weight: 600; margin: 0 0 10px; }
+    p { margin: 0; }
+    .lede { max-width: 68ch; color: var(--muted); }
+    .layout { display: grid; grid-template-columns: 340px 1fr; gap: 22px; align-items: start; }
+    .panel, .sheet {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+    .panel { padding: 16px; position: sticky; top: 12px; }
+    .sheet { padding: 18px 18px 8px; }
+    .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    button, select, input[type="time"], input[type="file"] {
+      font: inherit;
+      color: inherit;
+    }
+    button, select, input[type="time"] {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 6px 10px;
+    }
+    button { cursor: pointer; }
+    button.primary { background: var(--accent); color: white; border-color: var(--accent); }
+    button:disabled { opacity: 0.55; cursor: default; }
+    label.file { display: block; margin: 8px 0; color: var(--muted); font-size: 14px; }
+    .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 18px; }
+    .kpi { padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
+    .kpi b { display: block; font-size: 26px; font-weight: 600; letter-spacing: -0.03em; }
+    .kpi span, .kpi small { color: var(--muted); }
+    .kpi small { display: block; margin-top: 4px; }
+    .up { color: var(--warn); }
+    .down { color: var(--accent); }
+    .interval { margin: 14px 0 6px; }
+    .interval input[type="range"] { width: 100%; margin: 8px 0 2px; accent-color: var(--accent); }
+    .scale { display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+    .courses { max-height: 360px; overflow: auto; margin: 10px 0; border-top: 1px solid var(--line); }
+    .course {
+      display: grid;
+      grid-template-columns: 58px 1fr auto;
+      gap: 8px;
+      align-items: center;
+      padding: 7px 2px;
+      border-bottom: 1px solid var(--line);
+      font-size: 14px;
+    }
+    .course .time { font-variant-numeric: tabular-nums; }
+    .course .meta { color: var(--muted); }
+    .course .load { font-variant-numeric: tabular-nums; text-align: right; }
+    .course.off { color: var(--muted); }
+    .course.hot .load { color: var(--warn); font-weight: 600; }
+    .filters { display: flex; gap: 8px; margin: 12px 0; }
+    .filters select { flex: 1; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 8px 0 18px; }
+    th, td { text-align: right; padding: 6px 8px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+    th:first-child, td:first-child { text-align: left; }
+    th { color: var(--muted); font-weight: 600; }
+    .bars { display: grid; gap: 5px; margin: 8px 0 16px; }
+    .bar-row { display: grid; grid-template-columns: 148px 1fr; gap: 8px; align-items: center; font-size: 13px; }
+    .bar-track { display: flex; gap: 3px; height: 14px; background: transparent; }
+    .bar { height: 14px; border-radius: 2px; }
+    .bar.plan { background: #c8bfb2; }
+    .bar.scenario { background: var(--accent); }
+    .legend { display: flex; gap: 14px; color: var(--muted); font-size: 13px; margin-bottom: 8px; }
+    .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+    .note, .error {
+      font-size: 14px;
+      color: var(--muted);
+      margin: 8px 0 16px;
+    }
+    .error { color: var(--warn); background: var(--warn-soft); padding: 8px 10px; border-radius: 8px; }
+    details { margin-top: 8px; color: var(--muted); font-size: 14px; }
+    .interval-value { font-variant-numeric: tabular-nums; font-weight: 600; }
+    @media (max-width: 900px) {
+      .layout, .kpis { grid-template-columns: 1fr; }
+      .panel { position: static; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Simulation d'offre RER</h1>
+    <p class="lede">Comparez le plan de transport prévu à un scénario où l'intervalle entre les courses est constant. La consommation suit le nombre de courses. L'attente et la charge suivent les montées prévues.</p>
+  </header>
+  <main class="layout">
+    <section class="panel">
+      <h2>Données</h2>
+      <div class="row">
+        <button class="primary" id="exemple" type="button">Charger l'exemple</button>
+      </div>
+      <label class="file">Consommations par RER<input id="f-conso" type="file" accept=".csv,text/csv"></label>
+      <label class="file">Plan de transport<input id="f-plan" type="file" accept=".csv,text/csv"></label>
+      <label class="file">Affluence par gare et sens<input id="f-aff" type="file" accept=".csv,text/csv"></label>
+      <button id="charger" type="button">Charger ces fichiers</button>
+      <p class="note" id="source">Chargement de l'exemple…</p>
+
+      <div class="filters">
+        <select id="rer"></select>
+        <select id="direction"></select>
+      </div>
+      <select id="periode">
+        <option value="matin">Pointe du matin, 7 h – 10 h</option>
+        <option value="soir">Pointe du soir, 16 h – 19 h 30</option>
+        <option value="tout">Toute la journée</option>
+      </select>
+      <div class="interval">
+        <label for="intervalle">Intervalle moyen entre deux courses</label>
+        <div class="interval-value" id="intervalle-valeur">—</div>
+        <input id="intervalle" type="range" min="3" max="30" step="1" value="6">
+        <div class="scale"><span>3 min</span><span>30 min</span></div>
+      </div>
+      <p class="note" id="intervalle-note"></p>
+      <div class="courses" id="courses"></div>
+      <p class="note">Les départs partent du premier train de la période, avec exactement l'intervalle choisi, dans les deux sens. La marche d'une course ajoutée est calquée sur la course qui dessert le plus de gares.</p>
+      <button id="reset" type="button">Revenir au plan prévu</button>
+      <details>
+        <summary>Colonnes attendues</summary>
+        <p>Consommations : rer, kwh_par_course, capacite. Plan : course_id, rer, direction, station, ordre, heure. Affluence : rer, direction, station, debut_tranche, montees. Les descentes ne sont pas demandées : elles sont estimées vers l'aval.</p>
+      </details>
+    </section>
+    <section>
+      <div id="error"></div>
+      <div class="kpis" id="kpis"></div>
+      <div class="sheet">
+        <h2 id="titre-attente">Temps d'attente</h2>
+        <div class="legend"><span><i class="swatch bar plan"></i>Plan prévu</span><span><i class="swatch bar scenario"></i>Scénario</span></div>
+        <div class="bars" id="bars-attente"></div>
+        <h2 id="titre-charge">Charge maximale au départ de la gare</h2>
+        <div class="bars" id="bars-charge"></div>
+        <table>
+          <thead>
+            <tr>
+              <th>Gare</th>
+              <th>Attente plan</th>
+              <th>Attente scénario</th>
+              <th>Écart</th>
+              <th>Charge plan</th>
+              <th>Charge scénario</th>
+            </tr>
+          </thead>
+          <tbody id="tableau"></tbody>
+        </table>
+        <p class="note" id="hypotheses"></p>
+      </div>
+    </section>
+  </main>
+  <script>
+    const state = {
+      courses: [],
+      added: [],
+      retired: new Set(),
+      headway: {},
+      plan: null,
+      scenario: null,
+      ecart: null,
+      rer: "",
+      direction: "",
+      periode: "matin",
+    };
+    let simulateToken = 0;
+    let simulateTimer = 0;
+
+    const $ = (id) => document.getElementById(id);
+
+    function fr(value, digits) {
+      if (value == null || Number.isNaN(value)) return "—";
+      return new Intl.NumberFormat("fr-FR", {
+        minimumFractionDigits: digits,
+        maximumFractionDigits: digits,
+      }).format(value);
+    }
+
+    function signed(value, digits) {
+      if (value == null) return "—";
+      const text = fr(Math.abs(value), digits);
+      if (value > 0) return "+" + text;
+      if (value < 0) return "−" + text;
+      return text;
+    }
+
+    async function post(url, body) {
+      const response = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body || {}),
+      });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "Le calcul a échoué");
+      return data;
+    }
+
+    function showError(message) {
+      $("error").innerHTML = message ? `<p class="error"></p>` : "";
+      if (message) $("error").querySelector("p").textContent = message;
+    }
+
+    function applyData(data, sourceLabel) {
+      state.courses = data.courses;
+      state.added = data.ajouts || [];
+      state.retired = new Set();
+      state.headway = {};
+      state.plan = data.plan;
+      state.scenario = data.scenario;
+      state.ecart = data.ecart;
+      const rers = [...new Set(state.courses.map((course) => course.rer))];
+      if (!rers.includes(state.rer)) state.rer = rers[0] || "";
+      fillSelect($("rer"), rers, state.rer);
+      syncDirections();
+      $("source").textContent = sourceLabel;
+      const unknown = (data.scenario.gares_inconnues || []).join(", ");
+      showError(unknown ? "Gares d'affluence absentes du plan : " + unknown : "");
+      render();
+    }
+
+    function fillSelect(select, values, current) {
+      select.innerHTML = "";
+      values.forEach((value) => {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = value;
+        select.appendChild(option);
+      });
+      select.value = current;
+    }
+
+    function syncDirections() {
+      const directions = [...new Set(
+        state.courses.filter((course) => course.rer === state.rer).map((course) => course.direction)
+      )];
+      state.added.filter((course) => course.rer === state.rer).forEach((course) => {
+        if (!directions.includes(course.direction)) directions.push(course.direction);
+      });
+      if (!directions.includes(state.direction)) state.direction = directions[0] || "";
+      fillSelect($("direction"), directions, state.direction);
+    }
+
+    function inWindow(minute, periode) {
+      if (periode === "matin") return minute >= 7 * 60 && minute < 10 * 60;
+      if (periode === "soir") return minute >= 16 * 60 && minute < 19 * 60 + 30;
+      return true;
+    }
+
+    function headwayKey(periode) {
+      return state.rer + "|" + periode;
+    }
+
+    function coursesIn(direction, periode) {
+      return state.courses.filter((course) =>
+        course.rer === state.rer && course.direction === direction && inWindow(course.minute, periode)
+      );
+    }
+
+    function plannedMean(periode) {
+      const minutes = [...new Set(coursesIn(state.direction, periode).map((course) => course.minute))]
+        .sort((a, b) => a - b);
+      if (minutes.length < 2) return 6;
+      let sum = 0;
+      for (let index = 1; index < minutes.length; index += 1) sum += minutes[index] - minutes[index - 1];
+      return sum / (minutes.length - 1);
+    }
+
+    function evenTimes(first, last, headway) {
+      const times = [];
+      for (let minute = first; minute <= last; minute += headway) times.push(minute);
+      return times.length ? times : [first];
+    }
+
+    function clock(minute) {
+      const hour = Math.floor(minute / 60);
+      const rest = minute % 60;
+      return String(hour).padStart(2, "0") + ":" + String(rest).padStart(2, "0");
+    }
+
+    function activeWindows() {
+      if (state.headway[headwayKey("tout")] != null) return [["tout", state.headway[headwayKey("tout")]]];
+      return ["matin", "soir"]
+        .filter((periode) => state.headway[headwayKey(periode)] != null)
+        .map((periode) => [periode, state.headway[headwayKey(periode)]]);
+    }
+
+    function buildScenario() {
+      const retired = new Set();
+      const added = [];
+      const directions = [...new Set(
+        state.courses.filter((course) => course.rer === state.rer).map((course) => course.direction)
+      )];
+      directions.forEach((direction) => {
+        activeWindows().forEach(([periode, headway]) => {
+          const planned = coursesIn(direction, periode);
+          if (planned.length < 2) return;
+          const minutes = [...new Set(planned.map((course) => course.minute))].sort((a, b) => a - b);
+          const targets = new Set(evenTimes(minutes[0], minutes[minutes.length - 1], headway));
+          planned.forEach((course) => {
+            if (!targets.has(course.minute)) retired.add(course.id);
+          });
+          targets.forEach((minute) => {
+            if (!minutes.includes(minute)) {
+              added.push({
+                rer: state.rer,
+                direction,
+                minute,
+                heure: clock(minute),
+                origine: "",
+                terminus: "",
+                id: "pending-" + direction + "-" + minute,
+              });
+            }
+          });
+        });
+      });
+      state.retired = retired;
+      state.added = added;
+    }
+
+    function sliderValue() {
+      const chosen = state.headway[headwayKey(state.periode)];
+      return chosen == null ? Math.round(plannedMean(state.periode)) : chosen;
+    }
+
+    function syncSlider() {
+      const input = $("intervalle");
+      const value = sliderValue();
+      input.value = String(Math.min(30, Math.max(3, value)));
+      const chosen = state.headway[headwayKey(state.periode)];
+      const mean = plannedMean(state.periode);
+      $("intervalle-valeur").textContent = chosen == null
+        ? "Plan prévu · " + fr(mean, 1) + " min en moyenne"
+        : chosen + " min, écart constant";
+      const wholeDay = state.headway[headwayKey("tout")] != null && state.periode !== "tout";
+      if (wholeDay) {
+        $("intervalle-note").textContent =
+          "Toute la journée est déjà calée sur un écart de " + state.headway[headwayKey("tout")]
+          + " min. Déplacer ce curseur ne modifie que la période affichée.";
+        return;
+      }
+      if (chosen == null) {
+        $("intervalle-note").textContent =
+          "L'horaire prévu est conservé, avec ses intervalles variables. Une autre valeur aligne les départs, du premier au dernier train de la période, sur un écart constant dans les deux sens.";
+        return;
+      }
+      $("intervalle-note").textContent =
+        "Écart de " + chosen + " min entre chaque départ, à partir du premier train de la période. Le même intervalle est appliqué dans les deux sens. Revenir sur " + Math.round(mean) + " min retrouve le plan prévu.";
+    }
+
+    function trainById(payload, id) {
+      return (payload.trains || []).find((train) => train.id === id);
+    }
+
+    function renderCourses() {
+      const box = $("courses");
+      box.innerHTML = "";
+      const rows = state.courses
+        .filter((course) =>
+          course.rer === state.rer
+          && course.direction === state.direction
+          && inWindow(course.minute, state.periode)
+          && !state.retired.has(course.id)
+        )
+        .map((course) => ({ course, added: false }))
+        .concat(state.added
+          .filter((course) =>
+            course.rer === state.rer
+            && course.direction === state.direction
+            && inWindow(course.minute, state.periode)
+          )
+          .map((course) => ({ course, added: true }))
+        );
+      rows.sort((a, b) => a.course.minute - b.course.minute || a.course.id.localeCompare(b.course.id));
+      if (!rows.length) {
+        const empty = document.createElement("p");
+        empty.className = "note";
+        empty.textContent = "Aucune course dans ce filtre.";
+        box.appendChild(empty);
+        return;
+      }
+      rows.forEach(({ course, added }) => {
+        const train = trainById(state.scenario, course.id);
+        const label = document.createElement("div");
+        label.className = "course" + (train && train.surcharge ? " hot" : "");
+        const time = document.createElement("span");
+        time.className = "time";
+        time.textContent = course.heure;
+        const meta = document.createElement("span");
+        meta.className = "meta";
+        meta.textContent = course.origine + " → " + course.terminus + (added ? " · ajoutée" : "");
+        const load = document.createElement("span");
+        load.className = "load";
+        load.textContent = train ? fr(train.charge_max, 0) : "—";
+        label.append(time, meta, load);
+        box.appendChild(label);
+      });
+    }
+
+    function stationsOf(payload) {
+      return (payload.gares || []).filter((station) =>
+        station.rer === state.rer && station.direction === state.direction
+      );
+    }
+
+    function render() {
+      renderCourses();
+      syncSlider();
+      const gap = state.ecart;
+      const scenario = state.scenario;
+      const cards = [
+        ["Énergie de la journée", fr(scenario.energie_kwh, 0) + " kWh", signed(gap.energie_kwh, 0) + " kWh", gap.energie_kwh],
+        ["Attente moyenne", fr(scenario.attente_moyenne_min, 2) + " min", signed(gap.attente_moyenne_min, 2) + " min · cumul " + signed(gap.attente_cumulee_h, 1) + " h", gap.attente_moyenne_min],
+        ["Attente p90", fr(scenario.attente_p90_min, 1) + " min", signed(gap.attente_p90_min, 1) + " min", gap.attente_p90_min],
+        ["Charge maximale", fr(scenario.charge_max, 0), signed(gap.charge_max, 0) + " · " + scenario.courses_en_surcharge + (scenario.courses_en_surcharge > 1 ? " courses" : " course") + " au-dessus de la capacité", gap.charge_max],
+      ];
+      $("kpis").innerHTML = "";
+      cards.forEach(([label, value, delta, raw]) => {
+        const card = document.createElement("div");
+        card.className = "kpi";
+        const name = document.createElement("span");
+        name.textContent = label;
+        const strong = document.createElement("b");
+        strong.textContent = value;
+        const small = document.createElement("small");
+        small.textContent = "vs plan " + delta;
+        if (raw > 0) small.className = "up";
+        if (raw < 0) small.className = "down";
+        card.append(name, strong, small);
+        $("kpis").appendChild(card);
+      });
+
+      const planStations = stationsOf(state.plan);
+      const scenarioStations = stationsOf(state.scenario);
+      const byName = new Map(planStations.map((station) => [station.station, station]));
+      $("titre-attente").textContent = "Temps d'attente moyen · " + state.rer + " vers " + state.direction;
+      $("titre-charge").textContent = "Charge max à bord en quittant la gare · " + state.rer + " vers " + state.direction;
+      drawBars($("bars-attente"), scenarioStations, byName, "attente_min", " min");
+      drawBars($("bars-charge"), scenarioStations.filter((station) => station.charge_max != null), byName, "charge_max", "");
+      const body = $("tableau");
+      body.innerHTML = "";
+      scenarioStations.forEach((station) => {
+        const plan = byName.get(station.station) || {};
+        const tr = document.createElement("tr");
+        [
+          station.station,
+          fr(plan.attente_min, 2),
+          fr(station.attente_min, 2),
+          signed((station.attente_min ?? 0) - (plan.attente_min ?? 0), 2),
+          plan.charge_max == null ? "—" : fr(plan.charge_max, 0),
+          station.charge_max == null ? "—" : fr(station.charge_max, 0),
+        ].forEach((text) => {
+          const td = document.createElement("td");
+          td.textContent = text;
+          tr.appendChild(td);
+        });
+        body.appendChild(tr);
+      });
+      const left = fr(scenario.non_embarques, 0);
+      $("hypotheses").textContent =
+        left + " voyageurs sans train. Les montées de chaque tranche arrivent uniformément et prennent le prochain train du sens. La charge envoie ces montées vers les gares suivantes, au prorata des montées du sens inverse sur la journée. La consommation est un kWh fixe par course, indépendant du remplissage. Les indicateurs du haut couvrent tous les sens ; les graphiques suivent le sens affiché. Baisse en vert, hausse en brun.";
+    }
+
+    function drawBars(container, stations, planByName, key, suffix) {
+      container.innerHTML = "";
+      let max = 0;
+      stations.forEach((station) => {
+        const plan = planByName.get(station.station);
+        max = Math.max(max, station[key] || 0, plan && plan[key] || 0);
+      });
+      if (max <= 0) max = 1;
+      stations.forEach((station) => {
+        const plan = planByName.get(station.station);
+        const row = document.createElement("div");
+        row.className = "bar-row";
+        const name = document.createElement("span");
+        name.textContent = station.station;
+        const track = document.createElement("div");
+        track.className = "bar-track";
+        track.append(bar("plan", plan && plan[key], max), bar("scenario", station[key], max));
+        row.append(name, track);
+        row.title = "Plan " + fr(plan && plan[key], 1) + suffix + " · scénario " + fr(station[key], 1) + suffix;
+        container.appendChild(row);
+      });
+    }
+
+    function bar(kind, value, max) {
+      const node = document.createElement("div");
+      node.className = "bar " + kind;
+      const width = Math.max(0, ((value || 0) / max) * 50);
+      node.style.width = width + "%";
+      return node;
+    }
+
+    function scheduleSimulate() {
+      window.clearTimeout(simulateTimer);
+      simulateTimer = window.setTimeout(() => { simulate(); }, 120);
+    }
+
+    async function simulate() {
+      buildScenario();
+      const token = ++simulateToken;
+      try {
+        const data = await post("/api/simuler", {
+          retirees: [...state.retired],
+          ajoutees: state.added.map((course) => ({
+            rer: course.rer,
+            direction: course.direction,
+            minute: course.minute,
+          })),
+        });
+        if (token !== simulateToken) return;
+        state.added = data.ajouts || [];
+        state.plan = data.plan;
+        state.scenario = data.scenario;
+        state.ecart = data.ecart;
+        showError((data.scenario.gares_inconnues || []).length
+          ? "Gares d'affluence absentes du plan : " + data.scenario.gares_inconnues.join(", ")
+          : "");
+        render();
+      } catch (error) {
+        if (token !== simulateToken) return;
+        showError(error.message);
+      }
+    }
+
+    $("exemple").addEventListener("click", async () => {
+      state.headway = {};
+      try {
+        applyData(await post("/api/exemple"), "Exemple : RER A, La Défense – Marne-la-Vallée–Chessy, journée type illustrative.");
+      } catch (error) {
+        showError(error.message);
+      }
+    });
+
+    $("charger").addEventListener("click", async () => {
+      const files = {
+        consommations: $("f-conso").files[0],
+        plan: $("f-plan").files[0],
+        affluence: $("f-aff").files[0],
+      };
+      if (!files.consommations || !files.plan || !files.affluence) {
+        showError("Choisissez les trois CSV.");
+        return;
+      }
+      try {
+        const texts = {};
+        for (const [key, file] of Object.entries(files)) texts[key] = await file.text();
+        state.headway = {};
+        applyData(await post("/api/charger", texts), "Fichiers chargés.");
+      } catch (error) {
+        showError(error.message);
+      }
+    });
+
+    $("rer").addEventListener("change", () => {
+      state.rer = $("rer").value;
+      syncDirections();
+      render();
+    });
+    $("direction").addEventListener("change", () => { state.direction = $("direction").value; render(); });
+    $("periode").addEventListener("change", () => { state.periode = $("periode").value; render(); });
+    $("intervalle").addEventListener("input", () => {
+      const value = Number($("intervalle").value);
+      const planned = Math.round(plannedMean(state.periode));
+      state.headway[headwayKey(state.periode)] = value === planned ? null : value;
+      if (state.periode === "tout") {
+        state.headway[headwayKey("matin")] = null;
+        state.headway[headwayKey("soir")] = null;
+      } else {
+        state.headway[headwayKey("tout")] = null;
+      }
+      syncSlider();
+      scheduleSimulate();
+    });
+    $("reset").addEventListener("click", async () => {
+      state.headway = {};
+      await simulate();
+    });
+
+    post("/api/exemple")
+      .then((data) => applyData(data, "Exemple : RER A, La Défense – Marne-la-Vallée–Chessy, journée type illustrative."))
+      .catch((error) => showError(error.message));
+  </script>
+</body>
+</html>

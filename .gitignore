@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+simulation_offre/exemples/affluence_rer_a_30min.csv
